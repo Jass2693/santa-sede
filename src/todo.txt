@@ -1,0 +1,5 @@
+// Todos
+- imagenes y textos de artistas #
+- responsive release #
+- funciones de forms #
+- responsive contacto

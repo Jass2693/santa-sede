@@ -1,0 +1,128 @@
+@use '../../varialbles' as vars;
+section {
+    display: flex; 
+    width: 100%;
+    
+  //  min-height: 800px;
+}
+.santa_sede_container {
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    width: 90%;
+     min-height: 700px;
+   
+    
+    align-items: center;
+    margin-bottom: 25px;
+  
+    
+    @media(max-width: vars.$breakpoint-large){
+       flex-direction: column;
+    }
+    
+    
+    
+    .santa_sede_textContainer {
+        
+        width: 65%;
+        margin: auto;
+        text-align: justify;
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        
+       
+        div {
+            
+            width: 45%;
+           display: flex;
+           flex-direction: column;
+           justify-content: space-around;
+            
+        }
+        
+       // 
+       @media(max-width: vars.$breakpoint-large){ 
+        overflow: scroll;
+        padding-right: 5px;
+        width: 75%;
+       }
+       @media(max-width: vars.$breakpoint-medium){
+        width: 90%;
+        
+        }
+        
+        @media(max-width: vars.$breakpoint-small){
+        width: 100%;
+        
+        }
+        @media(max-width: vars.$breakpoint-extra-small){
+            width: 92vw;
+            }
+       
+       
+       
+        p {
+            font-weight: 400;
+            font-size: 18px;
+            text-align: justify;
+            line-height: 26.66px;
+            
+            @media(max-width: vars.$breakpoint-medium){
+                font-size: 16px;
+                
+            }
+         }
+    //     .text_italic {
+    //          font-style: italic;
+    //  }
+
+    }
+
+
+    .santa_sede_imageContainer {
+        
+        width: 55%;
+        margin-top: 4%;
+        text-align: center;
+        // @media(max-width: vars.$breakpoint-large){
+        //    width: 100%;
+            
+        //   }    
+        @media(max-width: vars.$breakpoint-large){
+           display: none;
+           
+         }    
+        
+        img{
+            height: 700px;
+            width: 500px;
+            
+            @media(max-width: vars.$breakpoint-medium){
+            
+            }
+        }
+        
+    }
+
+    .santa_sede_imageMovile_container {
+        display: none;
+        @media(max-width: vars.$breakpoint-large){
+            display: block;
+            
+        }
+        img {
+            width: 480px;
+            @media(max-width: vars.$breakpoint-medium){
+                width: 400px;
+            }
+            @media(max-width: vars.$breakpoint-small){
+                width: 350px;
+            }
+            @media(max-width: vars.$breakpoint-extra-small){
+               width: 280px;
+            }
+        }
+    }
+}

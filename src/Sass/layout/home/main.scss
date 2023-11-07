@@ -1,0 +1,175 @@
+@use '../../varialbles' as vars;
+ 
+ main {
+
+     display: flex;
+     flex-direction: column;
+
+
+   // width: ;
+    //  height: 1100px;
+     margin-bottom: 20px;
+      
+     @media(min-width: vars.$breakpoint-extra-large){
+           height: 900px;
+  
+     }    
+
+ }
+
+
+
+//  .cards_container {
+//      display: flex;
+//      justify-content: center;
+//      padding-top: 30px;
+//      flex-wrap: wrap;
+//      gap: 50px;
+     
+     
+     
+//      .card_item {   
+//         width: 22%;
+//         height: 365px;
+//        // text-align: center;
+//         padding: 8px 16px 8px 16px;
+//         position: relative;
+        
+        
+//         @media(max-width: vars.$breakpoint-large){
+//           //height: 340px;
+//           width: 30%;
+//       }
+//         @media(max-width: vars.$breakpoint-medium){
+//         width: 45%;
+//         height: 400px;
+//         }
+//         @media(max-width: vars.$breakpoint-medium){ 
+//       //  width: 50%;
+//         height: 350px;
+        
+//       }
+//       @media(max-width: vars.$breakpoint-extra-small){
+//       width: 60%;
+//       height: 340px;
+      
+//       }
+     
+      
+
+//      }
+//  }
+//  .home_rectangle {
+//    background: #fff;
+//    height: 100%;
+//    width: 22%; 
+//  }
+
+
+//  .card_image {
+//     margin-top: 8px;
+//     width: 90%;
+//     height: 65%;
+//   //  float: right;
+//     z-index: 3;
+//     position: absolute;
+//     right: 0px;
+//     top: 10px;
+//     @media(max-width: vars.$breakpoint-medium){ 
+      
+//       height: 62%;
+//     }
+//     @media(max-width: vars.$breakpoint-small){
+//       width: 90%;
+//       height: 60%;
+      
+//     }
+//     @media(max-width: vars.$breakpoint-extra-small){
+      
+      
+//     }
+//  }
+//  .card_text_container {
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: start;
+//     float: right;
+//     margin: auto;
+//     width: 70%;
+//     height: 130px;
+//     background-color: #000;
+//     position: absolute;
+//     top: 65%;
+//     right: 0px;
+//     z-index: 2;
+//     font-weight: 700;
+//      @media(max-width: vars.$breakpoint-large){
+//        width: 76%;
+//       text-align: justify;
+//       font-size: 15px;
+//       @media(max-width: vars.$breakpoint-medium){ 
+//         top: 66%;
+//         height: 134px;
+//         width: 75%;
+        
+//       }
+//       @media(max-width: vars.$breakpoint-small){ 
+//         font-size: 13px;
+//         top: 65%;
+//         height: 103px;
+//         text-align:start;       
+//       }
+//       @media(max-width: vars.$breakpoint-extra-small){
+//       width: 73%;
+      
+//       }
+//    }
+//     h5 {
+//       margin-bottom: -5%;
+      
+//   //     @media(max-width: vars.$breakpoint-large){
+//   //       font-size: 14px;
+//   //   }
+//   //   @media(max-width: vars.$breakpoint-large){
+//   //     font-size: 14px;
+
+//   // }
+    
+//  }
+//  h5,p {
+//   @media(max-width: vars.$breakpoint-extra-small){
+          
+//        }
+//  }
+
+//  }
+
+
+ .home_image_container {
+     display: flex;
+     width: 100%;
+     border: none;
+     padding: 0;
+
+     margin-top: 10px;
+    
+     @media(max-width: vars.$breakpoint-medium){
+      display: none;
+  }
+    
+  
+ }
+
+ .home_image {
+
+     width: 100%;
+     height: 280px;
+     @media(max-width: vars.$breakpoint-large){
+      height: 240px;
+  }
+    @media(max-width: vars.$breakpoint-medium){
+    height: 200px;
+}
+     
+
+ }
