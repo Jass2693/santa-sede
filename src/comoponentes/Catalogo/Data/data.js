@@ -1,10 +1,29 @@
 
 export const data = [
 
+    {
+        id: 0,
+        interprete: "Remiseria Temperley",
+        albumName: "Vos no sos mi amigo solo sos alto contacto",
+        profile_image: "media_17",
+        description: `
+        Remisería Temperley apareció en 2021 con su LP debut “Grupo Vocal Roña”, exhibiendo ya desde el inicio un estilo tan experimental como personal, bajo el tinte criollo de las chacareras, el candombe y las batucadas.
+
+        Además de sus tracks en bandcamp y soundcloud, lanzó GARZO EP x Rawa Club, formó parte de “Esquirlas II” x HiedraH Club de Baile y es también miembro de la fiesta/sello Volquete.
+
+        Tratando de estirar los extremos de la dureza de las chacareras (zangoloteo) o probando acentuar los agudos de la salsa, Remisería entra al catálogo de Santa Sede con su nuevo EP en donde también se integran los beats destructores de Nafftero y un flipeo bestial de Jaijiu.
+        `,
+        release: "se lanzó el 27 de julio de 2023",
+        release_by: 'SANTA SEDE // SSD-001',
+        producers: ["Producido x Remisería Temperley", "Mastering x Beta Canseco", "Arte de tapa por Gregorio Nash", "Foto x Patricio Toscano"],
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3209642636/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/vos-no-sos-mi-amigx-solo-sos-un-alto-contacto-ssd-017"
+    },
+
 
     {
-        
-        id: 0,
+
+        id: 1,
         interprete: "CRRDR",
         albumName: "Éxitos Cumbiales",
         profile_image: "media_0",
@@ -19,13 +38,13 @@ export const data = [
         release_by: "SANTA SEDE /// SSD-016",
         producers: ["Producido x CRRDR", "Mastering x JM Croce", "Arte de tapa x Bruno Lubinski y JM Croce", "Dibujos x Bruno Lubinski", "Diseño 3D x JM Croce"],
         extras: `Con la participación de Juanny Depp y Jags639`,
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=371889101/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/xitos-cumbiales-23-ssd-016"
-        
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=371889101/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/xitos-cumbiales-23-ssd-016"
+
     },
     {
-        
-        id: 1,
+
+        id: 2,
         interprete: "VENVSDAD",
         albumName: "CORESTAR (SSD-015)",
         profile_image: "media_1",
@@ -34,29 +53,29 @@ export const data = [
         release_by: "SANTA SEDE /// SSD-015",
         producers: ["Producido x VENVSDAD", "Mixing x Nicolás Savastano", "Mastering x JM Croce", "Arte de tapa y Diseño 3D x Mateo Outon"],
         extras: `Con la participación de RICXRDI, Erótica Castro y Die in Polar.`,
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=3372046363/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/corestar-ssd-015"
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3372046363/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/corestar-ssd-015"
 
     },
     {
-        
-        id: 2,
+
+        id: 3,
         interprete: "Eurowitch",
         albumName: "La BadbixXx (SSD​-​014)",
         profile_image: "media_2",
         description: "Odiseo pidió a los Argonautas ser atado al mástil de la nave para escuchar el canto de las sirenas. Santa Sede Maldición Beligerante le regaló al frío fruta estival un poco antes. Las tormentas closionan desde sus capullos en el Randstad; los gorriones vuelan alto hacia el delta del Río Rubicon. La calandria anticipa la primavera en el hemisferio sur Occidental. La marca del cisne insolente le responde al autor de la broma infinita: ¡Las terapeutas florales vengan ahora! ¡Que estas flores fueron traídas por la Bruja de otras Tierras!",
         release: "se lanzó el 29 de julio de 2022",
         release_by: "SANTA SEDE /// SSD-014",
-        producers: ["Producido x Eurowitch","Mastering x JM Croce", '"Pesa" mastering x Bigote'],
+        producers: ["Producido x Eurowitch", "Mastering x JM Croce", '"Pesa" mastering x Bigote'],
         extras: `Arte de tapa x Giovanni Palmieri Styling x Yamuna Forzani
         Joyería x Kays Mass`,
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=883256815/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/la-badbixxx-ssd-014"
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=883256815/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/la-badbixxx-ssd-014"
     },
 
     {
-        
-        id: 3,
+
+        id: 4,
         interprete: "SATIRA (feat. Voilander)",
         albumName: "DULCEDERIVA​.​DETUSLABIOS (SSD​-​013)",
         profile_image: "media_3",
@@ -64,13 +83,13 @@ export const data = [
         release: "",
         release_by: "",
         producers: [],
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=1992992615/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/track=36815042/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/dulcederiva-detuslabios-ssd-013"
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=1992992615/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/track=36815042/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/dulcederiva-detuslabios-ssd-013"
     },
 
     {
-        
-        id: 4,
+
+        id: 5,
         interprete: "Le Kaije",
         albumName: "Follow Me (SSD-012)",
         profile_image: "media_4",
@@ -83,17 +102,17 @@ export const data = [
         `,
         release: "se lanzó el 11 de mayo de 2022",
         release_by: "SANTA SEDE // SSD-011",
-        
+
         producers: ["Producido x Le Kaiju", "Mixing x Le Kaiju", "Mastering x Erótica Castro", "Diseño y foto de tapa x Maximiliano Bottoli - 8BESTUDIO"],
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=2182646918/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/follow-me-ssd-012",
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=2182646918/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/follow-me-ssd-012",
         extras: ""
     },
 
 
     {
-        
-        id: 5,
+
+        id: 6,
         interprete: "Santa Sede",
         albumName: "ANARKXBELLAKX Vol. 1 (SSD​-​011)",
         profile_image: "media_5",
@@ -110,50 +129,50 @@ export const data = [
         release: "se lanzó el 25 de noviembre de 2021",
         album_id: 3440133450,
         album_path: "album/anarkxbellakx-vol-1-ssd-011",
-        producers: ['Mastering x Nicolás Savastano', '"Katana [130 bpm]" mastering x PATIBULL', '"Caída Celestial [120 bpm]" mastering x JM Croce','Arte de tapa x ElHombreDeMimbre','Foto x Ali Ce'],
+        producers: ['Mastering x Nicolás Savastano', '"Katana [130 bpm]" mastering x PATIBULL', '"Caída Celestial [120 bpm]" mastering x JM Croce', 'Arte de tapa x ElHombreDeMimbre', 'Foto x Ali Ce'],
         extras: "Con la participación de Lou Kessler, PATIBULL, PVSSY, バイレファンキかけ子, Malo2k, Nafftero, Driado, NTFL, Sandunga, Beatrix Weapons, Erótica Castro, JM Croce, Rivers Z, Beta Canseco, Rasenk, Casey, Vacio Sur y Adeller.",
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=3440133450/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/anarkxbellakx-vol-1-ssd-011"
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3440133450/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/anarkxbellakx-vol-1-ssd-011"
 
     },
-    
+
     {
-        
-        id: 6,
+
+        id: 7,
         interprete: "Eurowitch",
         albumName: "Gato (SSD​-​010)",
         profile_image: "media_6",
         description: "Más allá del rubicón, donde el Mosela se encuentra con el Rhin, desde allí llama la santa bruja, como un eterno romancero medieval. La Euro, que viene dando chingotazos a lo Rey Sol, tiene preparado un nuevo acto para nuestra cuenca bellaca Para eso: Escuchá al maricón más duro del juego. (El que te pone a perrear)    No te compares Quédate en tu puesto",
-        release:"se lanzó el 1 de julio de 2021",
+        release: "se lanzó el 1 de julio de 2021",
         release_by: "SANTA SEDE // SSD-010",
         album_id: "track=4181035812",
-        producers: ["Producido x Eurowitch","Mix & Mastering x JM Croce", "Arte de tapa x Eurowitch"],
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/track=4181035812/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/track/gato-ssd-010",
+        producers: ["Producido x Eurowitch", "Mix & Mastering x JM Croce", "Arte de tapa x Eurowitch"],
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/track=4181035812/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/track/gato-ssd-010",
         extras: ""
 
     },
-  
+
     {
-        
-        id: 7,
+
+        id: 8,
         interprete: "Nomusa (feat. LVZY)",
         albumName: "Montevideo 333 (SSD​-​009)",
         profile_image: "media_7",
         description: "Nos encontramos con Nomusa a la manera de un discurrir fluvial. Es decir, nos encontramos con ella por la trascendencia de sus palabras. Cuando las palabras trascienden los espíritus se invocan. Cuando los espíritus se invocan el conocimiento aparece - el sagrado. Aquellos manantiales que provienen de las llanuras siempre son más profundos que los ríos de montaña. Lo dijeron los antiguos Egipcios. Ahora te lo confirma Ella.",
-        release:"se lanzó el 16 de abril de 2021",
+        release: "se lanzó el 16 de abril de 2021",
         release_by: "SANTA SEDE // SSD-009",
         album_id: "track=2676500242",
         album_path: "track/montevideo-333-ssd-009",
-        producers: ["Producido x Nomusa y LVZY", "Grabado con Mansa Labicha", "Mix x LVZY", "Mastering x JM Croce" ],
+        producers: ["Producido x Nomusa y LVZY", "Grabado con Mansa Labicha", "Mix x LVZY", "Mastering x JM Croce"],
         extras: "Foto y St x Magdalena Arantzazu (ig: @mawiggy) Asistencia de foto x Jvlián (ig: @hiena.pzc)Muaa x Amapola Vera (ig: @amapola_vera)  Diseño 3D x Mateo Outon (ig: @mateoouton)",
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/track=2676500242/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/",
-        embed_href:"https://santasedelabel.bandcamp.com/track/montevideo-333-ssd-009"
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/track=2676500242/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/",
+        embed_href: "https://santasedelabel.bandcamp.com/track/montevideo-333-ssd-009"
     },
-    
+
     {
-        
-        id: 8,
+
+        id: 9,
         interprete: "Santa Sede",
         albumName: "Nipona Remixes",
         profile_image: "media_8",
@@ -163,20 +182,20 @@ export const data = [
         album_id: "album=113478509",
         album_path: "corestar-ssd-015",
         producers: ["Producido x Santa Sede, T.A.U y Earthquake Soundsystem",
-                    "Master x Die in Polar","Arte de tapa x JM Croce y Die in Polar",
-                    "Videos x Erótica Castro y Die in Polar"
-                ],
+            "Master x Die in Polar", "Arte de tapa x JM Croce y Die in Polar",
+            "Videos x Erótica Castro y Die in Polar"
+        ],
         extras: "Con la participación de ojosfinos, Tepache, Pita Pawer, Andywhite MX y Ketal Kabrx",
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=113478509/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/nipona-remixes"
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=113478509/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/nipona-remixes"
 
     },
 
-   
-    
+
+
     {
-        
-        id: 9,
+
+        id: 10,
         interprete: "JM Croce",
         albumName: "Locura (SSD​-​008)",
         profile_image: "media_9",
@@ -186,11 +205,11 @@ export const data = [
         producers: ["Producido por JM Croce", "Arte de tapa por JM Croce"],
         album_id: 3372046363,
         album_path: "corestar-ssd-015",
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/track=1495888930/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/track/locura-ssd-008"
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/track=1495888930/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/track/locura-ssd-008"
     },
     {
-        id: 10,
+        id: 11,
         interprete: "Eurowitch (feat. Ayo Tamz)",
         albumName: "C​ó​mo Lucho (SSD​-​007)",
         profile_image: "media_10",
@@ -201,12 +220,12 @@ export const data = [
         embed_src: "https://bandcamp.com/EmbeddedPlayer/track=652750585/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/track/c-mo-lucho-ssd-007"
 
-       
+
     },
-   
+
     {
-        
-        id: 11,
+
+        id: 12,
         interprete: "Erótica Castro",
         albumName: "Atrevida (SSD​-​006)",
         profile_image: "media_11",
@@ -218,32 +237,32 @@ export const data = [
         Atrevida es un escalón más en esta narrativa de lo clandestino. Si bien, las cosas nos corresponden por derecho, los medios para tomarlas siguen siendo de otros.`,
         release: "se lanzó el 20 de noviembre de 2020",
         release_by: 'SANTA SEDE // SSD-006',
-        producers: ["Producido por Erótica Castro y JM Croce", "Arte de tapa por JM Croce"],            
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/track=269569029/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/track/atrevida-ssd-006"    
-           
-       
+        producers: ["Producido por Erótica Castro y JM Croce", "Arte de tapa por JM Croce"],
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/track=269569029/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/track/atrevida-ssd-006"
+
+
     },
     {
-        
-        id: 12,
+
+        id: 13,
         interprete: "Los Reyes de La Nueva Era (SSD​-​005), de THE BEGINNING OF POZOLE",
         albumName: "Los Reyes de La Nueva Era",
         profile_image: "media_12",
         description: `Sin descripcion       `,
         release: "se lanzó el 5 de noviembre de 2020",
         release_by: 'de Los Reyes de La Nueva Era (SSD​-​005), ',
-        producers: [""], 
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=3636409137/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/track=2073283569/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/los-reyes-de-la-nueva-era-ssd-005"
-        
-           
-       
+        producers: [""],
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3636409137/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/track=2073283569/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/los-reyes-de-la-nueva-era-ssd-005"
+
+
+
     },
 
     {
-        
-        id: 13,
+
+        id: 14,
         interprete: "ashtray.somnolence",
         albumName: "Happiness (SSD​-​004)",
         profile_image: "media_13",
@@ -254,18 +273,18 @@ export const data = [
         `,
         release: "se lanzó el 10 de septiembre de 2020",
         release_by: 'SANTA SEDE // SSD-004',
-        producers: ["Arte de tapa por María Svaton"], 
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=3274952295/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/happiness-ssd-004"
-        
-    
-        
-           
-       
+        producers: ["Arte de tapa por María Svaton"],
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3274952295/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/happiness-ssd-004"
+
+
+
+
+
     },
     {
-        
-        id: 14,
+
+        id: 15,
         interprete: "JM Croce",
         albumName: "SSD​-​003",
         profile_image: "media_14",
@@ -274,16 +293,16 @@ export const data = [
         `,
         release: "se lanzó el 7 de agosto de 2020",
         release_by: 'SANTA SEDE // SSD-003',
-        producers: ["Todas las canciones por Juan Martín Croce", "Grabado en Buenos Aires, 2020", "Producido por Juan Martin Croce y Erótica Castro"],       
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=3154510148/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/ssd-003"
-        
-       
+        producers: ["Todas las canciones por Juan Martín Croce", "Grabado en Buenos Aires, 2020", "Producido por Juan Martin Croce y Erótica Castro"],
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3154510148/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/ssd-003"
+
+
     },
 
     {
-        
-        id: 15,
+
+        id: 16,
         interprete: "jin-Roh",
         albumName: "Ritmo Violento (SSD​-​002)",
         profile_image: "media_15",
@@ -295,18 +314,18 @@ export const data = [
         `,
         release: "se lanzó el 3 de julio de 2020",
         release_by: 'SANTA SEDE // SSD-002',
-        producers: ["Producido por Jin-Roh","Arte de tapa por Lola Perroshot"], 
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=4109879221/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/", 
-        embed_href:"https://santasedelabel.bandcamp.com/album/ritmo-violento-ssd-002",
-        
-           
-       
+        producers: ["Producido por Jin-Roh", "Arte de tapa por Lola Perroshot"],
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=4109879221/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/ritmo-violento-ssd-002",
+
+
+
     },
 
 
     {
-        
-        id: 16,
+
+        id: 17,
         interprete: "Felipe Valdemoros",
         albumName: "100% Ruido Blanco (SSD​-​001)",
         profile_image: "media_16",
@@ -316,13 +335,14 @@ export const data = [
         release: "se lanzó el 26 de junio de 2020",
         release_by: 'SANTA SEDE // SSD-001',
         producers: ["Producido por Felipe Valdemoros en colaboración con Erótica Castro", "La Barranca, Jin-Roh y Francisco Picaud.", "Arte de tapa por Manuel Schifani"],
-        embed_src:"https://bandcamp.com/EmbeddedPlayer/album=2307996206/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href:"https://santasedelabel.bandcamp.com/album/100-ruido-blanco-ssd-001"
-          
-           
-       
+        embed_src: "https://bandcamp.com/EmbeddedPlayer/album=2307996206/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/100-ruido-blanco-ssd-001"
+
+
+
     },
-
-
+   
 
 ]
+
+

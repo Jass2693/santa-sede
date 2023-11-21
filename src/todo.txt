@@ -1,5 +1,11 @@
-// Todos
-- imagenes y textos de artistas #
-- responsive release #
-- funciones de forms #
-- responsive contacto
+# Todos
+arreglar efectos
+revisar responsive
+revisar footer 
+comparar con figma
+ V responsive:
+           
+            artistas responsive
+            artistas-layout
+
+

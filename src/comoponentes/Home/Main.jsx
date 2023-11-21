@@ -13,7 +13,7 @@ export const Main = () => {
              <img src="/assets/images/home_image.png" alt="home_image"  className='home_image'/>
              
        </div> */}
-       <div className='ultimos_lanzamientos_container'><h2>ULTIMOS LANZAMIENTOS</h2></div>
+       <div className='ultimos_lanzamientos_container animate__animated animate__fadeInLeft'><h2>ULTIMOS LANZAMIENTOS</h2></div>
         <HomeCards/>  
     </main>
   )

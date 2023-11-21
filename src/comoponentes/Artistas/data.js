@@ -33,87 +33,98 @@ export const data = [
         description: `
         Sin Descripcion`,
     },
+
     {
         
         id: 3,
-        interprete: "SATIRA (feat. Voilander)",
-        albumName: "DULCEDERIVA​.​DETUSLABIOS (SSD​-​013)",
-        profile_image: "satira",
+        interprete: "REMISERIA TEMPERLEY",
+        albumName: "",
+        profile_image: "remiseria_temperley",
         description: `Sin Descripcion`,
     },
-    {
+
+
+    // {
         
-        id: 4,
-        interprete: "Le Kaiju",
-        albumName: "Follow Me (SSD-012)",
-        profile_image: "LeKaiju",
-        description: `Sin Descripcion`,
-    },
-    {
+    //     id: 3,
+    //     interprete: "SATIRA (feat. Voilander)",
+    //     albumName: "DULCEDERIVA​.​DETUSLABIOS (SSD​-​013)",
+    //     profile_image: "satira",
+    //     description: `Sin Descripcion`,
+    // },
+    // {
         
-        id: 5,
-        interprete: "Santa Sede",
-        albumName: "",
-        profile_image: "santaSede",
-        description: `Sin Descripcion
-        `,
-    },
-    {
+    //     id: 4,
+    //     interprete: "Le Kaiju",
+    //     albumName: "Follow Me (SSD-012)",
+    //     profile_image: "LeKaiju",
+    //     description: `Sin Descripcion`,
+    // },
+    // {
         
-        id: 6,
-        interprete: "Nomusa (feat. LVZY)",
-        albumName: "",
-        profile_image: "nomusa",
-        description: `Sin Descripcion`,
-    },
-    {
+    //     id: 5,
+    //     interprete: "Santa Sede",
+    //     albumName: "",
+    //     profile_image: "santaSede",
+    //     description: `Sin Descripcion
+    //     `,
+    // },
+    // {
         
-        id: 7,
-        interprete: "JM Croce",
-        albumName: "",
-        profile_image: "jmCroce",
-        description: `Sin descripcion`,
-    },
-    {
+    //     id: 6,
+    //     interprete: "Nomusa (feat. LVZY)",
+    //     albumName: "",
+    //     profile_image: "nomusa",
+    //     description: `Sin Descripcion`,
+    // },
+    // {
         
-        id: 8,
-        interprete: "Erótica Castro",
-        albumName: "",
-        profile_image: "eroticaCastro",
-        description: `Sin descripcion`,
-    },
-    {
+    //     id: 7,
+    //     interprete: "JM Croce",
+    //     albumName: "",
+    //     profile_image: "jmCroce",
+    //     description: `Sin descripcion`,
+    // },
+    // {
         
-        id: 9,
-        interprete: "Los Reyes de La Nueva Era",
-        albumName: "",
-        profile_image: "losReyesDeLaNuevaEra",
-        description: `Sin Descripcion`,
-    },
-    {
+    //     id: 8,
+    //     interprete: "Erótica Castro",
+    //     albumName: "",
+    //     profile_image: "eroticaCastro",
+    //     description: `Sin descripcion`,
+    // },
+    // {
         
-        id: 10,
-        interprete: "ashtray.somnolence",
-        albumName: "",
-        profile_image: "ashtray",
-        description: `Sin Descripcion`,
-    },
-    {
+    //     id: 9,
+    //     interprete: "Los Reyes de La Nueva Era",
+    //     albumName: "",
+    //     profile_image: "losReyesDeLaNuevaEra",
+    //     description: `Sin Descripcion`,
+    // },
+    // {
         
-        id: 11,
-        interprete: "jin-Roh",
-        albumName: "",
-        profile_image: "jinRoh",
-        description: `Sin Descripcion`,
-    },
-    {
+    //     id: 10,
+    //     interprete: "ashtray.somnolence",
+    //     albumName: "",
+    //     profile_image: "ashtray",
+    //     description: `Sin Descripcion`,
+    // },
+    // {
         
-        id: 12,
-        interprete: "Felipe Valdemoros",
-        albumName: "",
-        profile_image: "felipeValdemoros",
-        description: `Sin Descripcion`,
-    },
+    //     id: 11,
+    //     interprete: "jin-Roh",
+    //     albumName: "",
+    //     profile_image: "jinRoh",
+    //     description: `Sin Descripcion`,
+    // },
+    // {
+        
+    //     id: 12,
+    //     interprete: "Felipe Valdemoros",
+    //     albumName: "",
+    //     profile_image: "felipeValdemoros",
+    //     description: `Sin Descripcion`,
+    // },
    
 
 ]

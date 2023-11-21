@@ -1,21 +1,40 @@
 @use '../../varialbles' as vars;
+
 .home_container {
-display: flex;
-flex-wrap: wrap;
-justify-content:center;
-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 80%;
+  margin: auto;
+  padding-top: 8px;
+  //  padding-left: 40px;
+  // background-color: red;
+  @media(min-width: vars.$breakpoint-extra-small) { 
+    width: 100%;
+  
 
+  }
+  @media(min-width: vars.$breakpoint-small) {
+  
+    
+    width: 100%;
+  }
+  @media(min-width: vars.$breakpoint-medium) {
+  
+     width: 100%;
+    gap: 30px;
+    
+  }
+  @media(min-width: vars.$breakpoint-large) {
+   
+    // width: 90%;
+    gap: 30px;
+  }
+  @media(min-width: vars.$breakpoint-extra-large) {
+    gap: 50px;
+  }
 
-gap: 10px;
-margin: auto;
-padding-top: 8px;
-//  padding-left: 40px;
-// background-color: red;
-
-
-@media(max-width: vars.$breakpoint-small) {
-    justify-content: center;
-}
+ 
 
 
 
@@ -25,98 +44,80 @@ padding-top: 8px;
 .cards_section {
   padding-left: 70px;
   width: 85%;
+
   margin: auto;
-  // display: flex;
-  // justify-content: space-between;
-  
-}
- .home_item {
- 
-  width: 25%;
-  margin-bottom: 10px;
-  
 
- @media(max-width: vars.$breakpoint-medium) {
-     
-     
+  @media(min-width: vars.$breakpoint-extra-small) {
+    padding-left: 0px;;
   }
- }
+  @media(min-width: vars.$breakpoint-medium) {
 
- .home_cards_image {
-   width: 312px;
-    height: 404px;
-    @media(max-width: vars.$breakpoint-small) {
-     width: 230px;
-     height: 322px;
-     
-    }
- }
-.grey_line {
-  display: none;
- position: absolute;
- top: 20%;
- height: 4px;
-  background: #444;
-  width: 98%;
-  z-index: 30;
-  @media(max-width: vars.$breakpoint-medium) {
-    display: flex;
-    }
+  }
+  
+ 
+  // display: flex;
+//  justify-content: space-between;
+
 }
+
+
+
+
+
 
 .ultimos_lanzamientos_container {
   display: none;
   padding-right: 8px;
   padding-bottom: 6px;
-  position: absolute;
-  top: 18%;
+  // position: absolute;
+  // top: 5%;
   color: "white";
   width: 50%;
+ 
 
   margin: auto;
   align-self: center;
   text-align: center;
-  @media(max-width: vars.$breakpoint-medium) {
-  display: block;
-  margin-top: 20px;
-  }
-  
-  
-}
-.ultimos_lanzamientos_container::before {
-content: '';
-position: absolute;
-bottom:  20%;
-right: 0;
-width: 30%;
-height: 50px;
-border-right: 3px solid #444;
-border-bottom: 1px solid #444;
-box-sizing: border-box;
-
-}
-
-.catalogo_h2_container {
-  padding-right: 14px;
-  padding-bottom: 1px;
-  position: absolute;
-  top: 21%;
-  color: "white";
-  width: fit-content;
-  margin: auto;
-  align-self: center;
-  text-align: center;
-}
-
-.catalogo_h2_container::before {
-  content: '';
-  position: absolute;
-  bottom:  20%;
-  right: 0;
-  width: 30%;
-  height: 45px;
   border-right: 3px solid #444;
   border-bottom: 1px solid #444;
-  box-sizing: border-box;
-  
+  margin-bottom: 20px;
+
+  @media(min-width: vars.$breakpoint-extra-small) {
+    display: block;
+    margin-top: 20px;
+    
   }
+  @media(min-width: vars.$breakpoint-medium) { 
+    display: none;
+  }
+
+}
+
+// .ultimos_lanzamientos_container::before {
+//   content: '';
+//    position: absolute;
+//   //  bottom: 2%;
+//   // right: 0;
+//   width: 30%;
+//   height: 50px;
+//   border-right: 3px solid #4f4;
+//   border-bottom: 1px solid #444;
+//   box-sizing: border-box;
+
+// }
+
+
+
+
+// @keyframes hamburguer {
+//   from {
+
+//       width: 0;
+//   }
+
+//   to {
+
+//       width: 50%;
+
+//   }
+// }

@@ -29,7 +29,7 @@ export const Contacto = () => {
   return (
     <section className={activeMenu ? "disabledClass" : "section_contacto"}>
       <div className='contacto_h2_container'><h2>CONTACTO</h2></div>
-        <form onSubmit={handleSubmit} className='contacto_container animate__animated animate__fadeIn'>
+        <form onSubmit={handleSubmit} className='contacto_container animate__animated animate__fadeIn animate__delay-1s'>
             <label >Nombre</label>
             <input type="text"
              name="userName"

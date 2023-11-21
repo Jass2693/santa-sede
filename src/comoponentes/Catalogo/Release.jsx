@@ -1,16 +1,20 @@
-import {useContext, useState} from 'react'
+import {useContext, useEffect, useState} from 'react'
 import {useLocation} from 'react-router-dom'
 import { data } from './Data/data';
 import { MenuContext } from '../../context/MenuContext';
-//import { Carousel } from '../Catalogo/Carousel';
+import { Carousel } from '../Catalogo/Carousel';
+import {catalogo} from './Data/catalogo'
 export const Release = () => {
 
    const {state } = useLocation();
-   const {activeMenu} = useContext(MenuContext)
+   const {activeMenu,   carouselImg} = useContext(MenuContext)
 
   
+  //  useEffect(() => {
+  //   console.log(carouselImg);
+  //  }, [carouselImg])
    
-
+console.log( catalogo[state.albumData].imageArr[carouselImg]);
 
   return (
     <section className={activeMenu ? "disabledClass" : 'release_container'}>
@@ -55,10 +59,10 @@ export const Release = () => {
 
         <div className='release_image animate__animated animate__fadeIn'>
 
-          <img src={`/assets/sections/release/${state.albumData ? data[state.albumData].profile_image : data[0].profile_image}.png`} alt="" />
+          <img src={`/assets/sections/release/${ catalogo[state.albumData].imageArr[carouselImg] }.png`} alt="" />
           
           </div>
-            {/* <Carousel/> */}
+             <Carousel props={state.albumData ? data[state.albumData].id : data[0].id}/> 
 
           <div className='realese_songs_container'>
               

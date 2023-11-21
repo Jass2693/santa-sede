@@ -5,10 +5,14 @@ export const SantaSede = () => {
   const { activeMenu, setactiveMenu } = useContext(MenuContext)
   return (
     <section className={activeMenu ? "disabledClass" : "santa_sede_container"}>
+      <div className='santa_h2_container animate__animated animate__fadeInLeft'>
+            <img src="/assets/letras/santa_sede_2.png" alt="santa Sede" className='santa_sede_h2' />
+          </div>
       <div className='santa_sede_imageMovile_container'>
 
         <img src="/assets/sections/santa-sede-movile.png" alt="" />
       </div>
+      
       <div className='santa_sede_textContainer animate__animated animate__fadeIn'>
       <div>
 
