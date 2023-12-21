@@ -24,7 +24,11 @@ nav {
     @media(min-width: vars.$breakpoint-xx-large){ 
             width: 80%;
            
-         }    
+         }
+         @media(min-width: vars.$breakpoint-xxx-large){ 
+            width: 80%;
+           
+         }     
    
     
     ul {
@@ -34,15 +38,19 @@ nav {
         flex-wrap: wrap;
         flex-direction: row;
         list-style: none; 
-       justify-content: space-between;
+        justify-content: space-between;
         gap: 15px;
         cursor: pointer;
         align-items: center;
         padding-right: 10px;
+        position: relative;
+       
+      
         
         
         @media(min-width: vars.$breakpoint-large){
             width: 100%;
+           
            
         
         }
@@ -83,5 +91,55 @@ nav {
     //     width: 120px;
     // }
    
+
+}
+
+// .list_navbar {
+//     &:hover {
+//         border-bottom: 2px solid;
+//     }
+  
+//}
+.disabled_btn {
+ display: none;   
+}
+.active_border {
+    @media(max-width: 1919px){  
+        border-bottom: 2px solid;
+
+    }
+    @media(min-width: 1925px){  
+        border-bottom: 2px solid;
+
+    }
+    //position: relative;
+   
+    
+}
+.underline {
+    @media(min-width: vars.$breakpoint-xxx-large){ 
+        position: absolute;
+        
+        width: 110px;
+        border: 1px solid white;
+        bottom: 32px;
+        transition: all 1200ms ease-in-out;
+        
+    }
+    @media(min-width: 1925px){ 
+        display: none;
+    } 
+    /* catalogo 260
+        artista 480px
+        extras 710
+        EDITORIAL 935
+        ss 1175
+        contacto
+
+
+
+    
+        */
+
 
 }

@@ -3,39 +3,41 @@
 footer {
 
     background: #fff;
-  //  height: 250px;
+    //  height: 250px;
     position: relative;
+
     @media(min-width: vars.$breakpoint-extra-small) {
-        height: 355px;
-     }
+        min-height: 100px;
+    }
+
     @media(min-width: vars.$breakpoint-small) {
-        height: 355px;
+        height: 280px;
 
 
     }
+
     @media(min-width: vars.$breakpoint-medium) {
-        height: 200px;
-       
+        height: 210px;
+        min-height: 100px;
         margin: auto;
     }
 
     @media(min-width: vars.$breakpoint-large) {
-       min-width: 100px;
-       height: 180px;
+        min-width: 100px;
+        height: 180px;
     }
 
 
-  
 
-   
+
+
+    @media(min-width: vars.$breakpoint-medium) {}
+
     @media(min-width: vars.$breakpoint-medium) {
-      
-     }
-     @media(min-width: vars.$breakpoint-medium) {
         width: 100%;
-     
-      }
-  
+
+    }
+
 
 
     .footer_container {
@@ -44,7 +46,7 @@ footer {
         width: 90%;
         // min-height: 75%;
         margin: auto;
-       
+
         // @media(max-width: vars.$breakpoint-large){
 
         // }    
@@ -65,8 +67,13 @@ footer {
         margin-top: 40px;
        
 
+
+
+
+
         @media(max-width: vars.$breakpoint-small) {
-            margin-left: 5%;
+            //   margin-left: 5%;
+            width: 340px;
         }
 
         label {
@@ -74,16 +81,32 @@ footer {
             font-weight: 900;
             color: black;
 
+        @media(min-width: vars.$breakpoint-small) {
+                font-size: 16px;
+             }    
+            
+        @media(min-width: vars.$breakpoint-medium) {
+            font-size: 20px;
+         }
+
         }
 
         input {
             background: white;
             border: 1px solid grey;
-            width: 230px;
+            width: 225px;
             padding: 5px;
             border-radius: 5px;
             color: #000;
-            
+            @media(max-width: vars.$breakpoint-extra-small) {
+                width: 180px;
+                margin-top: 5px;
+             }
+             @media(min-width: vars.$breakpoint-small) {
+                width: 225px;
+
+             }
+
         }
 
         button {
@@ -96,13 +119,16 @@ footer {
     .logo_footer_container {
         margin-top: 35px;
         border: 1px solid;
-        
+
+
 
         img {
-           // width: 100px;
-           @media(min-width: vars.$breakpoint-extra-small) {
-            width: 250px;
-           }
+
+            // width: 100px;
+            @media(min-width: vars.$breakpoint-extra-small) {
+                width: 250px;
+            }
+
             @media(min-width: vars.$breakpoint-medium) {
                 width: 350px;
 
@@ -111,6 +137,7 @@ footer {
         }
     }
 
+
     //font-family: 'Playfair Display', serif;
 }
 
@@ -118,24 +145,24 @@ footer {
 
 .foot_page {
     color: #000;
-    position: absolute;
-    bottom: 0;
-   // left: 5%;
+    //   position: absolute;
+    //  bottom: 0;
+    // left: 5%;
+    width: 90%;
     display: flex;
-    justify-content: space-around;
-   
-    width: 100%;
+    justify-content: space-between;
+
     height: 50px;
     margin: auto;
     font-family: 'Playfair Display', serif;
     font-weight: 400;
-   
-   
+
+
 
     @media(max-width: vars.$breakpoint-large) {}
 
-   
-    
+
+
     align-items: center;
 
     @media(max-width: vars.$breakpoint-medium) {
@@ -146,78 +173,171 @@ footer {
         flex-direction: column;
         align-items: center;
         height: 45%;
+        justify-content: center;
 
         @media(max-width: vars.$breakpoint-small) {
             height: 35%;
-           
+
+
         }
     }
+
+    .copyright {
+        font-weight: 700;
+        position: absolute;
+        bottom: 0;
+
+        @media(max-width: vars.$breakpoint-medium) {
+            display: none;
+        }
+
+        @media(min-width: vars.$breakpoint-large) {
+            position: relative;
+        }
+
+    }
+
 
 
     .foot_icons_container {
 
-        width: 28%;
+        //  width: 28%;
+
         display: flex;
         justify-content: space-between;
         align-content: center;
         font-weight: 900;
-      
-        
+
+
 
         @media(min-width: vars.$breakpoint-extra-small) {
-
-            width: 90%;
+            display: none;
+            width: 75%;
         }
+
         @media(min-width: vars.$breakpoint-small) {
-            width: 80%;
+            display: flex;
+            width: 50%;
         }
+
         @media(min-width: vars.$breakpoint-medium) {
-            width: 25%;
+
+            width: 32%;
+
         }
+
         @media(min-width: vars.$breakpoint-large) {
-            width: 23%;
-            
+            width: 46%;
+
+
 
         }
+
         @media(min-width: vars.$breakpoint-extra-large) {
-            width: 22%;
-           
+            width: 42%;
+
 
         }
-        @media(min-width: vars.$breakpoint-xx-large) { 
-          //  width: 15%;
-          width: 24%;
+
+        @media(min-width: vars.$breakpoint-xx-large) {
+            //  width: 15%;
+            width: 32%;
+        }
+
+        @media(min-width: vars.$breakpoint-xxx-large) {
+            //  width: 15%;
+            width: 28%;
         }
 
 
     }
 
     .footer_creators {
-        margin-right: 10px;
+        //   margin-right: 10px;
+        font-weight: 400;
 
-        @media(max-width: vars.$breakpoint-large) {
-            width: 43%;
-        }
-
-        @media(max-width: vars.$breakpoint-medium) {
-            // width: 43%;
-            display: flex;
+        @media(min-width: vars.$breakpoint-extra-small) {
+            width: 75%;
             flex-direction: column;
-            align-items: center;
+         
+            text-align: center;
+
         }
 
-        @media(max-width: vars.$breakpoint-small) {
+        @media(min-width: vars.$breakpoint-small) {
             width: 50%;
             font-size: 14px;
             //   text-align: justify;
             text-align: center;
+            position: absolute;
+            bottom: 3%;
+           
+
         }
 
-        @media(max-width: vars.$breakpoint-extra-small) {
-            width: 75%;
+        @media(min-width: vars.$breakpoint-medium) {
+             width: 40%;
+            display: flex;
+            position: relative;
+      
+            align-items: center;
+        }
+
+        @media(min-width: vars.$breakpoint-large) {
+            width: 30%;
+            flex-direction: row;
+           
+
+        }
+
+        @media(min-width: vars.$breakpoint-xx-large) {
+            width: 25%;
+          
+
+        }
+
+        @media(min-width: vars.$breakpoint-xxx-large) {
+            width: 20%;
+
         }
 
     }
 
+    .copyright_resp {
+        font-weight: 700;
+        display: block;
+        text-align: center;
 
+        @media(min-width: vars.$breakpoint-medium) {
+            display: none;
+        }
+    }
+
+
+}
+
+.foot_icons_container_resp {
+    @media(min-width: vars.$breakpoint-extra-small) {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 30px;
+        width: 300px;
+
+    }
+
+    @media(min-width: vars.$breakpoint-small) {
+        display: none;
+    }
+}
+
+.suscripcion_msj {
+    color: black;
+    
+}
+.btn_submit_footer {
+   
+    opacity: 0.5;
+}
+.isLoadingActive {
+    cursor: pointer;
 }

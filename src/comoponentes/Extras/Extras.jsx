@@ -8,12 +8,14 @@ export const Extras = () => {
     <section className={activeMenu ? "disabledClass" : 'artistas_section'}>
       <div className='catalogo_container'>
         <div className='catalogo_h2_container animate__animated animate__fadeInLeft'>
-          <h2>EXTRAS</h2>
+          <h2 className='animate__animated animate__fadeIn  animate__delay-1s'>EXTRAS</h2>
           </div>
+          <div className='items_container'>
+
 
         {
           data && data.map(element => (
-            <div key={element.id} className='catalogo_item animate__animated animate__fadeIn animate__delay-1s'>
+            <div key={element.id} className='catalogo_item animate__animated animate__fadeIn animate__delay-1s animate__slow 2s'>
               <a href={element.url} target="_blank">
                 <div className='item_fondo' style={{ backgroundImage: `url("/assets/2.0/extras/${element.extras_image}.png")` }}>
 
@@ -34,6 +36,7 @@ export const Extras = () => {
             </div>
           ))
         }
+        </div>
       </div>
     </section>
   )

@@ -5,10 +5,11 @@ import { MenuContext } from '../../context/MenuContext';
 export const Carousel = ({ props }) => {
   const {setCarouselImg,carouselImg} = useContext(MenuContext)
   
+  
   return (
-    <div className='release_carrousel'>
+    <div className='release_carrousel animate__animated animate__fadeIn animate__fadeIn animate__delay-1s  animate__slow 2s'>
       {
-        catalogo[props].imageArr && catalogo[props].imageArr.map((image, index) => (
+        (catalogo[props].imageArr.length > 1)  && catalogo[props].imageArr.map((image, index) => (
 
           <img
             src={`/assets/sections/release/${image}.png`}

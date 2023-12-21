@@ -7,11 +7,11 @@ export const HomeCards = () => {
 
   return (
     <div className={activeMenu ? "disabledClass" : "cards_section"}>
-      <div className='home_container  animate__animated animate__fadeIn animate__delay-1s'>
+      <div className='home_container  animate__animated animate__fadeIn'>
       
       {
        data && data.map(card => (
-            <div key={card.id} className='home_item animate__animated animate__fadeIn'>
+            <div key={card.id} className='home_item animate__animated animate__fadeIn animate__delay-1s	 animate__slow 1s'>
               
               <div className='rectangle'></div>
               

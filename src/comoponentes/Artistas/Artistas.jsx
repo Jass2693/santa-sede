@@ -8,11 +8,12 @@ export const Artistas = () => {
   return (
   
     <section  className={activeMenu ? "disabledClass" : 'artistas_section'}>
-        <div className='artista_h2_container  animate__animated animate__fadeInLeft'><h2>Artistas</h2></div>
+        <div className='artista_h2_container  animate__animated animate__fadeInLeft'><h2>ARTISTAS</h2></div>
     <div className='artistas_container'>
+
         {
             data && data.map(artist => ( 
-                <div key={artist.id} className='artista_item animate__animated animate__fadeIn animate__delay-1s'>
+                <div key={artist.id} className='artista_item animate__animated animate__fadeIn animate__delay-1s animate__slow 2s'>
                     <Link to="/artista-info"
                            state={{artistData: artist.id}}  
                     >

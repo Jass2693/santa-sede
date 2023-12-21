@@ -10,10 +10,11 @@ export const Artista_layout = () => {
 
   return (
     <div className={activeMenu ? "disabledClass" : "artistas_layout_section"}>
+      
         {
             data ? 
-            <div className='artista_layout_container animate__animated animate__fadeIn animate__delay-1s'>
-
+            <div className='artista_layout_container animate__animated animate__fadeIn animate__delay-1s animate__slow 2s'>
+               <Link to="/artistas" className='arrow_back'><img src="/assets/arrow_back.png" alt="" id='arrow' /></Link>
               <div className='artista_layout_image_container'>
 
                 <img
@@ -22,7 +23,7 @@ export const Artista_layout = () => {
               </div>
             
                <div className='artista_layout_info '>
-                <Link to="/artistas" className='arrow_back'><img src="/assets/arrow_back.png" alt="" id='arrow' /></Link>
+               
                 <h2>{state.artistData ? data[state.artistData].interprete : data[0].interprete }</h2>
                 <p>{state.artistData ? data[state.artistData].description : data[0].description }</p>
                </div>

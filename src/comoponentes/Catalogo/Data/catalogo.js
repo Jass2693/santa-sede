@@ -40,7 +40,7 @@
     {
         id: 4,
         interprete: "SATIRA (feat. Voilander)",
-        albumName: "DULCEDERIVA.DETUSLABIOS",
+        albumName: "DULCEDERIVA. DETUSLABIOS",
         image: "media_3",
         imageArr: ["media_3"],
         ssd: "(SSD-013)",

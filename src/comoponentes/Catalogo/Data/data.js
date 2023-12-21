@@ -17,6 +17,7 @@ export const data = [
         release_by: 'SANTA SEDE // SSD-001',
         producers: ["Producido x Remisería Temperley", "Mastering x Beta Canseco", "Arte de tapa por Gregorio Nash", "Foto x Patricio Toscano"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3209642636/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=3209642636/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/vos-no-sos-mi-amigx-solo-sos-un-alto-contacto-ssd-017"
     },
 
@@ -39,6 +40,7 @@ export const data = [
         producers: ["Producido x CRRDR", "Mastering x JM Croce", "Arte de tapa x Bruno Lubinski y JM Croce", "Dibujos x Bruno Lubinski", "Diseño 3D x JM Croce"],
         extras: `Con la participación de Juanny Depp y Jags639`,
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=371889101/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=371889101/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/xitos-cumbiales-23-ssd-016"
 
     },
@@ -54,6 +56,7 @@ export const data = [
         producers: ["Producido x VENVSDAD", "Mixing x Nicolás Savastano", "Mastering x JM Croce", "Arte de tapa y Diseño 3D x Mateo Outon"],
         extras: `Con la participación de RICXRDI, Erótica Castro y Die in Polar.`,
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3372046363/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=3372046363/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/corestar-ssd-015"
 
     },
@@ -70,6 +73,7 @@ export const data = [
         extras: `Arte de tapa x Giovanni Palmieri Styling x Yamuna Forzani
         Joyería x Kays Mass`,
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=883256815/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=883256815/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/la-badbixxx-ssd-014"
     },
 
@@ -84,6 +88,7 @@ export const data = [
         release_by: "",
         producers: [],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=1992992615/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/track=36815042/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=1992992615/size=small/bgcol=333333/linkcol=0f91ff/track=36815042/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/dulcederiva-detuslabios-ssd-013"
     },
 
@@ -105,6 +110,7 @@ export const data = [
 
         producers: ["Producido x Le Kaiju", "Mixing x Le Kaiju", "Mastering x Erótica Castro", "Diseño y foto de tapa x Maximiliano Bottoli - 8BESTUDIO"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=2182646918/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=2182646918/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/follow-me-ssd-012",
         extras: ""
     },
@@ -132,6 +138,7 @@ export const data = [
         producers: ['Mastering x Nicolás Savastano', '"Katana [130 bpm]" mastering x PATIBULL', '"Caída Celestial [120 bpm]" mastering x JM Croce', 'Arte de tapa x ElHombreDeMimbre', 'Foto x Ali Ce'],
         extras: "Con la participación de Lou Kessler, PATIBULL, PVSSY, バイレファンキかけ子, Malo2k, Nafftero, Driado, NTFL, Sandunga, Beatrix Weapons, Erótica Castro, JM Croce, Rivers Z, Beta Canseco, Rasenk, Casey, Vacio Sur y Adeller.",
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3440133450/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=3440133450/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/anarkxbellakx-vol-1-ssd-011"
 
     },
@@ -148,6 +155,7 @@ export const data = [
         album_id: "track=4181035812",
         producers: ["Producido x Eurowitch", "Mix & Mastering x JM Croce", "Arte de tapa x Eurowitch"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/track=4181035812/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/track=4181035812/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/track/gato-ssd-010",
         extras: ""
 
@@ -167,6 +175,7 @@ export const data = [
         producers: ["Producido x Nomusa y LVZY", "Grabado con Mansa Labicha", "Mix x LVZY", "Mastering x JM Croce"],
         extras: "Foto y St x Magdalena Arantzazu (ig: @mawiggy) Asistencia de foto x Jvlián (ig: @hiena.pzc)Muaa x Amapola Vera (ig: @amapola_vera)  Diseño 3D x Mateo Outon (ig: @mateoouton)",
         embed_src: "https://bandcamp.com/EmbeddedPlayer/track=2676500242/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/track=2676500242/size=small/bgcol=333333/linkcol=0f91ff/",
         embed_href: "https://santasedelabel.bandcamp.com/track/montevideo-333-ssd-009"
     },
 
@@ -187,6 +196,7 @@ export const data = [
         ],
         extras: "Con la participación de ojosfinos, Tepache, Pita Pawer, Andywhite MX y Ketal Kabrx",
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=113478509/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=113478509/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/nipona-remixes"
 
     },
@@ -206,6 +216,7 @@ export const data = [
         album_id: 3372046363,
         album_path: "corestar-ssd-015",
         embed_src: "https://bandcamp.com/EmbeddedPlayer/track=1495888930/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/track=1495888930/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/track/locura-ssd-008"
     },
     {
@@ -218,6 +229,7 @@ export const data = [
         release_by: 'SANTA SEDE // SSD-007',
         producers: ["Mezcla y mastering por JM Croce", "Arte de tapa por Eurowitch"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/track=652750585/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/track=652750585/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/track/c-mo-lucho-ssd-007"
 
 
@@ -239,6 +251,7 @@ export const data = [
         release_by: 'SANTA SEDE // SSD-006',
         producers: ["Producido por Erótica Castro y JM Croce", "Arte de tapa por JM Croce"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/track=269569029/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/track=269569029/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/track/atrevida-ssd-006"
 
 
@@ -254,6 +267,7 @@ export const data = [
         release_by: 'de Los Reyes de La Nueva Era (SSD​-​005), ',
         producers: [""],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3636409137/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/track=2073283569/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=3636409137/size=small/bgcol=333333/linkcol=0f91ff/track=2073283569/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/los-reyes-de-la-nueva-era-ssd-005"
 
 
@@ -275,6 +289,7 @@ export const data = [
         release_by: 'SANTA SEDE // SSD-004',
         producers: ["Arte de tapa por María Svaton"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3274952295/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=3274952295/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/happiness-ssd-004"
 
 
@@ -295,6 +310,7 @@ export const data = [
         release_by: 'SANTA SEDE // SSD-003',
         producers: ["Todas las canciones por Juan Martín Croce", "Grabado en Buenos Aires, 2020", "Producido por Juan Martin Croce y Erótica Castro"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=3154510148/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=3154510148/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/ssd-003"
 
 
@@ -316,6 +332,7 @@ export const data = [
         release_by: 'SANTA SEDE // SSD-002',
         producers: ["Producido por Jin-Roh", "Arte de tapa por Lola Perroshot"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=4109879221/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=4109879221/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
         embed_href: "https://santasedelabel.bandcamp.com/album/ritmo-violento-ssd-002",
 
 
@@ -336,13 +353,11 @@ export const data = [
         release_by: 'SANTA SEDE // SSD-001',
         producers: ["Producido por Felipe Valdemoros en colaboración con Erótica Castro", "La Barranca, Jin-Roh y Francisco Picaud.", "Arte de tapa por Manuel Schifani"],
         embed_src: "https://bandcamp.com/EmbeddedPlayer/album=2307996206/size=large/bgcol=333333/linkcol=0f91ff/artwork=small/transparent=true/",
-        embed_href: "https://santasedelabel.bandcamp.com/album/100-ruido-blanco-ssd-001"
+        embed_src_resp: "https://bandcamp.com/EmbeddedPlayer/album=2307996206/size=small/bgcol=333333/linkcol=0f91ff/transparent=true/",
+        embed_href: "https://santasedelabel.bandcamp.com/album/100-ruido-blanco-ssd-001",
 
 
 
     },
-   
-
 ]
-
 

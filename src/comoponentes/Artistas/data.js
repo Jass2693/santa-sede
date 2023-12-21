@@ -20,9 +20,7 @@ export const data = [
         interprete: "VENVSDAD",
         albumName: "",
         profile_image: "venvsdad",
-        description: `
-        Sin Descripcion
-        `
+        description: ``
     },
     {
         
@@ -30,8 +28,7 @@ export const data = [
         interprete: "Eurowitch",
         albumName: "",
         profile_image: "eurowitch",
-        description: `
-        Sin Descripcion`,
+        description: ``,
     },
 
     {
@@ -40,7 +37,7 @@ export const data = [
         interprete: "REMISERIA TEMPERLEY",
         albumName: "",
         profile_image: "remiseria_temperley",
-        description: `Sin Descripcion`,
+        description: ``,
     },
 
 

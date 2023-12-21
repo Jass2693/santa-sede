@@ -2,8 +2,8 @@ export const data = [
     {
         id: 0,
         src: "home_0",
-        interprete: "NUEVO LANZAMIENTO: Remiseria Temperley",
-        title: "VOS NO SOS MI AMIGX, SOLO SOS UN ALTO CONTACTO",
+        interprete: "LANZAMIENTO: ",
+        title: 'Remiseria Temperley -  "VOS NO SOS MI AMIGX, SOLO SOS UN ALTO CONTACTO"',
 
     },
     {

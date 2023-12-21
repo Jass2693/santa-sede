@@ -30,14 +30,16 @@ main {
 .home_item {
     background-color: black;
     position: relative;
-    transition: all 2000ms ease;
+    transition: all 100ms ease;
    
     &:hover {
         .item_text_container {
             opacity: 1;
         }
         .rectangle {
+            @media(min-width: vars.$breakpoint-medium) {
             height: 97%;
+            }
 
         }
     }
@@ -90,6 +92,13 @@ main {
     position: absolute;
     top: 2%;
     right: 0;
+    opacity: 0;
+    transform: translateX(-100px);
+    animation: fadeEntrance forwards;
+    animation-duration: 2s;
+    animation-delay: 1100ms;
+  
+
   
     @media(min-width: vars.$breakpoint-small) {
          width: 280px;
@@ -116,8 +125,10 @@ main {
     @media(min-width: vars.$breakpoint-extra-large) {
         width: 300px;
        // height: 280px;
+       
 
     }
+    
 
    
 
@@ -126,7 +137,13 @@ main {
 
 
 }
-
+@keyframes fadeEntrance {
+    
+    to {
+      opacity: 1;
+      transform: translateX(0px);    
+    }
+}
 .item_text_container {
     position: absolute;
     bottom: 0;
@@ -134,23 +151,27 @@ main {
     font-weight: 400;
     background-color: black;
     color: white;
-    opacity: 0;
+ 
     padding-left: 5px;
     transition: all 2000ms ease;
     @media(min-width: vars.$breakpoint-extra-small) {
-        font-size: 12px;
+        font-size: 16px;
         height: 100px;
-        width: 77%;
+        width: 98%;   
+        opacity: 1;
+      
     } 
     @media(min-width: vars.$breakpoint-small) {
-        width: 78%;
+        width: 980%;
         height: 80px;
         font-size: 12px;
+
      }
     @media(min-width: vars.$breakpoint-medium) { 
         width: 75%;
         height: 88px;
         font-size: 12px;
+        opacity: 0;
 
     }
     @media(min-width: vars.$breakpoint-large) { 
@@ -169,7 +190,23 @@ main {
         // flex-direction: column;
         // justify-content: center; 
     }
+    @media(min-width: vars.$breakpoint-xxx-large) {
+        font-size: 16px;
+     }
+    p {
+        margin-block-start: 0px;
+        margin-block-end: 0px;
+        display: inline;
+        margin-left: 7px;
+       
 
+    }
+    span {
+        font-weight: 800;
+        display: inline;
+
+    }
+   
 }
 
 .rectangle {
@@ -177,13 +214,13 @@ main {
     position: absolute;
     transition: all 2000ms ease;
     @media(min-width: vars.$breakpoint-extra-small) {
-        height: 77%;
+        height: 75%;
         width: 20%;
        
         
     }
     @media(min-width: vars.$breakpoint-small) {
-        height: 80%;
+        height: 77%;
         width: 20%;
         
     }
@@ -363,3 +400,5 @@ main {
 
 
 }
+
+

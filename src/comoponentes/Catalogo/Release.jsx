@@ -1,5 +1,5 @@
 import {useContext, useEffect, useState} from 'react'
-import {useLocation} from 'react-router-dom'
+import {Link, useLocation} from 'react-router-dom'
 import { data } from './Data/data';
 import { MenuContext } from '../../context/MenuContext';
 import { Carousel } from '../Catalogo/Carousel';
@@ -14,18 +14,26 @@ export const Release = () => {
   //   console.log(carouselImg);
   //  }, [carouselImg])
    
-console.log( catalogo[state.albumData].imageArr[carouselImg]);
+
 
   return (
     <section className={activeMenu ? "disabledClass" : 'release_container'}>
-      <div className='release_info'>
+        <Link to="/catalogo" className='arrow_back_release'><img src="/assets/arrow_back.png" alt="" id='arrow' /></Link>
+        <div className='release_image_resp animate__animated  animate__fadeIn  animate__slow 2s'>
+
+<img src={`/assets/sections/release/${ catalogo[state.albumData].imageArr[carouselImg] }.png`} alt="" />
+
+</div>
+        <iframe className="release_reproductor_responsive" src={state.albumData ? data[state.albumData].embed_src_resp  : data[0].embed_src_resp} seamless><a href={state.albumData ? data[state.albumData].embed_href : data[0].embed_href}>Éxitos Cumbiales &#39;23 (SSD-016) de CRRDR</a></iframe>
+
+      <div className='release_info animate__animated  animate__fadeIn animate__delay-1s  animate__slow 2s'>
         
         <div className='release_title'>
         <h2>{state.albumData ? data[state.albumData].albumName : data[0].albumName }</h2>
         <h5>by {state.albumData ? data[state.albumData].interprete : data[0].interprete}</h5>
         </div>
 
-        <div className='release_description'>
+        <div className='release_description '>
           <p>
           {state.albumData ? data[state.albumData].description : data[0].description}
           </p>
@@ -57,16 +65,19 @@ console.log( catalogo[state.albumData].imageArr[carouselImg]);
       </div>
       <div className='release_album_container'>
 
-        <div className='release_image animate__animated animate__fadeIn'>
+        <div className='release_image animate__animated animate__fadeIn  animate__delay-1s  animate__slow 2s'>
 
           <img src={`/assets/sections/release/${ catalogo[state.albumData].imageArr[carouselImg] }.png`} alt="" />
           
           </div>
              <Carousel props={state.albumData ? data[state.albumData].id : data[0].id}/> 
 
-          <div className='realese_songs_container'>
+          <div className='realese_songs_container '>
               
-        <iframe className="release_reproductor" src={state.albumData ? data[state.albumData].embed_src  : data[0].embed_src} seamless><a href={state.albumData ? data[state.albumData].embed_href : data[0].embed_href}>Éxitos Cumbiales &#39;23 (SSD-016) de CRRDR</a></iframe>
+        <iframe className="release_reproductor
+        animate__animated animate__fadeIn  animate__delay-1s  animate__slow 2s
+        
+        " src={state.albumData ? data[state.albumData].embed_src  : data[0].embed_src} seamless><a href={state.albumData ? data[state.albumData].embed_href : data[0].embed_href}>Éxitos Cumbiales &#39;23 (SSD-016) de CRRDR</a></iframe>
 
         </div>
 

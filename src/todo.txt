@@ -1,11 +1,5 @@
 # Todos
-arreglar efectos
-revisar responsive
-revisar footer 
-comparar con figma
- V responsive:
-           
-            artistas responsive
-            artistas-layout
-
+    efectos header buscar la manera de que ande en deploy
+    revisar textos
+    y efectos de las li que la linea se transporte
 
