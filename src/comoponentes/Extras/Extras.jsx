@@ -4,6 +4,9 @@ import { MenuContext } from '../../context/MenuContext'
 
 export const Extras = () => {
   const { activeMenu, setactiveMenu } = useContext(MenuContext)
+
+  const reverseData = data.toReversed()
+  
   return (
     <section className={activeMenu ? "disabledClass" : 'artistas_section'}>
       <div className='catalogo_container'>
@@ -14,7 +17,7 @@ export const Extras = () => {
 
 
         {
-          data && data.map(element => (
+          reverseData && reverseData.map(element => (
             <div key={element.id} className='catalogo_item animate__animated animate__fadeIn animate__delay-1s animate__slow 2s'>
               <a href={element.url} target="_blank">
                 <div className='item_fondo' style={{ backgroundImage: `url("/assets/2.0/extras/${element.extras_image}.png")` }}>

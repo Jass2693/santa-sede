@@ -3,14 +3,16 @@
 .home_container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  
   width: 80%;
   margin: auto;
   padding-top: 8px;
+  
   //  padding-left: 40px;
   // background-color: red;
   @media(min-width: vars.$breakpoint-extra-small) { 
     width: 100%;
+    justify-content: center;
   
 
   }
@@ -32,9 +34,12 @@
   }
   @media(min-width: vars.$breakpoint-extra-large) {
     gap: 50px;
+ 
   }
   @media(min-width: vars.$breakpoint-xxx-large) {
-    width: 75%;
+    width: 68%;
+    justify-content: start;
+
   }
  
 

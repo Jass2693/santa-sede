@@ -35,7 +35,7 @@ header {
    
     // z-index: 1;
     width: 100%;
-    animation: fadeDown 2s ease-in;
+    animation: fadeDown 900ms  ease-in;
 //    animation-delay: 2s;
     @media(max-width: vars.$breakpoint-medium){
 
@@ -156,7 +156,7 @@ header {
    height: 4px;
    background: #333;
    width: 98%;
-   z-index: 30;
+   z-index: 5;
    margin-bottom: 10px;
      // display: flex;
    }
@@ -172,11 +172,11 @@ header {
 @keyframes fadeDown {
     from {
         opacity: 0;
-        transform: translateY(-100px);
+      //  transform: translateY(-100px);
     }
     to {
         opacity: 1;
-        transform: translateY(0);
+     //   transform: translateY(0);
     }
 }
 

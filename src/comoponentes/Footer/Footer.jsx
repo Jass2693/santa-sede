@@ -132,8 +132,9 @@ export const Footer = () => {
         </div>
         <div className='footer_creators'>
         <span className="copyright_resp">Copyright © 2023 Santa Sede</span>
-          <span>Web Design x Juan Martin Croce |</span>
-          <span> Coding x Ariel Sotelo</span>
+          <span>Web Design x Juan Martin Croce </span>
+          <span id="footer_bar">|</span>
+          <span id="coded_by" > Coded x Ariel Sotelo</span>
         </div>
       </div>
     </footer>

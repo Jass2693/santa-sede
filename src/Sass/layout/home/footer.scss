@@ -255,6 +255,7 @@ footer {
     .footer_creators {
         //   margin-right: 10px;
         font-weight: 400;
+        
 
         @media(min-width: vars.$breakpoint-extra-small) {
             width: 75%;
@@ -279,25 +280,29 @@ footer {
              width: 40%;
             display: flex;
             position: relative;
-      
+           
             align-items: center;
         }
 
         @media(min-width: vars.$breakpoint-large) {
-            width: 30%;
+            width: 35%;
             flex-direction: row;
+            justify-content: space-between;
            
 
         }
+        @media(min-width: vars.$breakpoint-extra-large) {
+            width: 26%;
 
+        }
         @media(min-width: vars.$breakpoint-xx-large) {
-            width: 25%;
-          
+            width: 26%;
 
         }
 
         @media(min-width: vars.$breakpoint-xxx-large) {
             width: 20%;
+           
 
         }
 
@@ -340,4 +345,15 @@ footer {
 }
 .isLoadingActive {
     cursor: pointer;
+}
+
+#footer_bar {
+    @media(min-width: vars.$breakpoint-medium) {
+        display: none;
+        
+    } 
+    @media(min-width: vars.$breakpoint-large) {
+        display: block;
+        
+    } 
 }

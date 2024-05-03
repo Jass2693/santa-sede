@@ -3,12 +3,13 @@
 
 nav {
     display: flex;
-
+    justify-content: space-between;
 
     margin-bottom: -25px;
     position: absolute;
     top: 0;
     z-index: 5;
+
 
     @media(min-width: vars.$breakpoint-medium){ 
         width: 98%;
@@ -44,6 +45,7 @@ nav {
         align-items: center;
         padding-right: 10px;
         position: relative;
+   
        
       
         
@@ -117,6 +119,12 @@ nav {
     
 }
 .underline {
+    @media(max-width: 1915px){ 
+        display: none;
+    } 
+  
+
+
     @media(min-width: vars.$breakpoint-xxx-large){ 
         position: absolute;
         
@@ -126,9 +134,11 @@ nav {
         transition: all 1200ms ease-in-out;
         
     }
+
     @media(min-width: 1925px){ 
         display: none;
     } 
+ 
     /* catalogo 260
         artista 480px
         extras 710
@@ -142,4 +152,7 @@ nav {
         */
 
 
+}
+.none_underline {
+    display: none;
 }

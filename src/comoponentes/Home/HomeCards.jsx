@@ -4,13 +4,15 @@ import { MenuContext } from '../../context/MenuContext'
 
 export const HomeCards = () => {
   const {activeMenu,setactiveMenu} = useContext(MenuContext)
+  const reverseData = data.toReversed() 
+
 
   return (
     <div className={activeMenu ? "disabledClass" : "cards_section"}>
       <div className='home_container  animate__animated animate__fadeIn'>
       
       {
-       data && data.map(card => (
+       reverseData && reverseData.map(card => (
             <div key={card.id} className='home_item animate__animated animate__fadeIn animate__delay-1s	 animate__slow 1s'>
               
               <div className='rectangle'></div>

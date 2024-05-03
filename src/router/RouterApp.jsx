@@ -9,7 +9,7 @@ import { Artista_layout } from '../comoponentes/Artistas/Artista_layout'
 import { Extras } from '../comoponentes/Extras/Extras'
 import { Editorial } from '../comoponentes/Editorial/Editorial'
 import { Menu } from '../comoponentes/Home/Menu'
-import { Release } from '../comoponentes/Catalogo/Release'
+// import { Release } from '../comoponentes/Catalogo/Release'
 
 
 export const RouterApp = () => {
@@ -23,8 +23,8 @@ export const RouterApp = () => {
     <Route path='/artistas' element={<Artistas/>}/>
     <Route path='/artista-info' element={<Artista_layout/>}/>
     <Route path='/extras' element={<Extras/>}/>
-    <Route path='/editorial' element={<Editorial/>}/>
-    <Route path='/release' element={<Release/>}/>
+    {/* <Route path='/editorial' element={<Editorial/>}/> */}
+    {/* <Route path='/release' element={<Release/>}/> */}
     {/* <Route path='/menu' element={<Menu/>}/>
     */}
    

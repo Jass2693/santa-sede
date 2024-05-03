@@ -20,7 +20,7 @@ export const Navbar = () => {
 
       <ul>
         
-        <div className={location.pathname === '/' ? "" : 'underline'}
+        <div className={location.pathname === '/' ? "none_underline" : 'underline'}
             style={{ transform: `translateX(${underline}% ` }}
 
         />
@@ -33,7 +33,7 @@ export const Navbar = () => {
 
         <li
           className={(location.pathname === '/catalogo' | location.pathname === '/release') ? 'list_navbar active_border' : 'list_navbar '} 
-          onClick={()=>setUnderline(195)}
+          onClick={()=>setUnderline(230)}
           
           >
           <Link to="/catalogo" onClick={() => setHeaderEffect(!headerEffect)}>
@@ -42,7 +42,7 @@ export const Navbar = () => {
           </Link>
         </li>
         <li className={(location.pathname === '/artistas' | location.pathname === '/artista-info') ? 'list_navbar active_border' : 'list_navbar'} 
-             onClick={()=>setUnderline(398)}
+             onClick={()=>setUnderline(475)}
         >
           <Link to="/artistas" onClick={() => setHeaderEffect(!headerEffect)}>
 
@@ -50,24 +50,24 @@ export const Navbar = () => {
           </Link>
         </li>
         <li className={location.pathname === '/extras' ? 'list_navbar active_border' : 'list_navbar'} 
-          onClick={()=>setUnderline(592)}
+          onClick={()=>setUnderline(720)}
         >
           <Link to="/extras" onClick={() => setHeaderEffect(!headerEffect)}>
 
             <img src="/assets/letras/extras_2.png" alt="ir a seccion Extras" />
           </Link>
         </li>
-        <li className={location.pathname === '/editorial' ? 'list_navbar active_border' : 'list_navbar'}
+        {/* <li className={location.pathname === '/editorial' ? 'list_navbar active_border' : 'list_navbar'}
               onClick={()=>setUnderline(795)}
         >
           <Link to="/editorial" onClick={() => setHeaderEffect(!headerEffect)}>
 
             <img src="/assets/letras/editorial_2.png" alt="ir a seccion Editorial" />
           </Link>
-        </li>
+        </li> */}
 
         <li className={location.pathname === '/santa-sede' ? 'list_navbar active_border' : 'list_navbar'}
-              onClick={()=>setUnderline(1010)}
+              onClick={()=>setUnderline(974)}
         >
           <Link to="/santa-sede" onClick={() => setHeaderEffect(!headerEffect)}>
             <img src="/assets/letras/santa_sede_2.png" alt="ir a seccion Santa Sede" className='santa_sede_nav' />
@@ -76,7 +76,7 @@ export const Navbar = () => {
 
 
         <li className={location.pathname === '/contacto' ? 'list_navbar active_border' : 'list_navbar'}
-             onClick={()=>setUnderline(1220)}
+             onClick={()=>setUnderline(1225)}
         >
           <Link to="/contacto" onClick={() => setHeaderEffect(!headerEffect)}>
 

@@ -39,13 +39,13 @@ export const Menu = () => {
     {/* <div className='black_line'></div> */}
          
         <ul className='menu_ul'>
-            <li><Link to="/" onClick={handleMenu}>HOME</Link></li>
-            <li><Link to="/catalogo" onClick={handleMenu}>CATÁLOGO</Link></li>
-            <li><Link to="/artistas" onClick={handleMenu}>ARTISTAS</Link></li>
-            <li><Link to="/extras" onClick={handleMenu}>EXTRAS</Link></li>
-            <li><Link to="/editorial" onClick={handleMenu}>EDITORIAL</Link></li>
+            <li><Link to="/" onClick={handleMenu}>Home</Link></li>
+            <li><Link to="/catalogo" onClick={handleMenu}>Catálogo</Link></li>
+            <li><Link to="/artistas" onClick={handleMenu}>Artistas</Link></li>
+            <li><Link to="/extras" onClick={handleMenu}>Extras</Link></li>
+          
             <li><Link to="/santa-sede" onClick={handleMenu}>SANTA SEDE</Link></li>
-            <li><Link to="/contacto" onClick={handleMenu}>CONTACTO</Link></li>
+            <li><Link to="/contacto" onClick={handleMenu}>Contacto</Link></li>
         </ul>
 
         <div className='footer_menu'>

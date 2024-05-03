@@ -5,16 +5,17 @@ import { MenuContext } from '../../context/MenuContext'
 export const Catalogo = () => {
   const { activeMenu, setactiveMenu,setCarouselImg } = useContext(MenuContext)
   
-
+  const reverseData = catalogo.toReversed()
+ 
   return (
 
     <section className={activeMenu ? "disabledClass" : ""}>
 
-      <div className='catalogo_container'>
+      <div className='catalogo_container img_fondo_catalogo'>
         <div className='catalogo_h2_container animate__animated animate__fadeInLeft'><h2>CATÁLOGO</h2></div>
         <div className='items_container'>
         {
-          catalogo && catalogo.map(artist => (
+          reverseData && reverseData.map(artist => (
           
 
            
@@ -26,10 +27,11 @@ export const Catalogo = () => {
             >
 
 
-              <Link
+              <a href={artist.url} target='_blank'
 
-                to="/release"
+                
                 state={{ albumData: artist.id }}
+                className='link_catalogo_container'
               >
                
 
@@ -47,7 +49,7 @@ export const Catalogo = () => {
               
 
 
-              </Link>
+              </a>
 
               </div>
           ))}
