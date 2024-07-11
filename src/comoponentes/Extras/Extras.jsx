@@ -2,7 +2,7 @@ import { useContext } from 'react'
 import { data } from './data'
 import { MenuContext } from '../../context/MenuContext'
 
-export const Extras = () => {
+const Extras = () => {
   const { activeMenu, setactiveMenu } = useContext(MenuContext)
 
   const reverseData = data.toReversed()
@@ -18,7 +18,7 @@ export const Extras = () => {
 
         {
           reverseData && reverseData.map(element => (
-            <div key={element.id} className='catalogo_item animate__animated animate__fadeIn animate__delay-1s animate__slow 2s'>
+            <div key={element.id} className='catalogo_item animate__animated animate__fadeIn  animate__delay-1s'>
               <a href={element.url} target="_blank">
                 <div className='item_fondo' style={{ backgroundImage: `url("/assets/2.0/extras/${element.extras_image}.png")` }}>
 
@@ -27,7 +27,7 @@ export const Extras = () => {
                 <div className='catalogo_text_container'>
 
                   <h2>{element.interprete}</h2>
-                  <span style={{ display: "inline" }}>{element.albumName}</span>
+                  <span style={{ display: "inline" }} className={element.id == 1 || element.id == 2 ? "bold_name" : "" }>{element.albumName}</span>
                   {/* <span>{artist.ssd}</span> */}
                 </div>
 
@@ -44,6 +44,8 @@ export const Extras = () => {
     </section>
   )
 }
+export default Extras
+
 {/* <div
 key={artist.id}
 className='catalogo_item animate__animated animate__fadeIn'

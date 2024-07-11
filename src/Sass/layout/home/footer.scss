@@ -258,11 +258,17 @@ footer {
         
 
         @media(min-width: vars.$breakpoint-extra-small) {
-            width: 75%;
+            width: 70%;
             flex-direction: column;
-         
+            
             text-align: center;
 
+        }
+        @media(min-width: vars.$breakpoint-400-small) { 
+            width: 60%;
+        }
+        @media(min-width: vars.$breakpoint-480-small) { 
+            width: 50%;
         }
 
         @media(min-width: vars.$breakpoint-small) {

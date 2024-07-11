@@ -6,7 +6,7 @@ import { MenuContext } from '../../context/MenuContext'
 
 
 
-export const Header = () => {
+ export const Header = () => {
 
   const { activeMenu, setactiveMenu } = useContext(MenuContext)
   const location = useLocation()

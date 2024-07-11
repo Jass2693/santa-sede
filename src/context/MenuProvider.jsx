@@ -6,6 +6,7 @@ export const MenuProvider = ({children}) => {
     const [headersImages, setHeadersImages] = useState(true)
     const [carouselImg,setCarouselImg] = useState(0)
     const [headerEffect, setHeaderEffect] = useState(true)
+   
   return (
     <MenuContext.Provider
     value={{
@@ -16,7 +17,8 @@ export const MenuProvider = ({children}) => {
        setHeadersImages,
        carouselImg,
        setCarouselImg,
-       headerEffect, setHeaderEffect
+       headerEffect, setHeaderEffect,
+      
 
     }}
     >

@@ -13,6 +13,7 @@ export const data = [
         Este nuevo EP del productor oriundo de Bogotá nace bajo la narrativa de la cumbia como expresión cultural de Latinoamérica, alguna vez vista como hija de la marginalidad y tildada de poco interesante por los ojos de la hegemonía, aunque también vista desde los ojos del turista como exótica y seductora.
 
         Éxitos Cumbiales ’23 es contracultura dentro de la electrónica, donde CRRDR explora las posibilidades del género, metiendo en la licuadora tropical psicodelia y sonidos envolventes, preparando unos tragos explosivos junto a dos colaboradores que le ayudarán a darle el toque, el productor californiano Juanny Depp de la casa Amor Digital y el gran Jags de la tierra del jalapeño.`,
+        url: "https://www.instagram.com/c0rred0r"
     },
     {
         
@@ -20,15 +21,17 @@ export const data = [
         interprete: "VENVSDAD",
         albumName: "",
         profile_image: "venvsdad",
-        description: ``
+        description: ``,
+        url: "https://www.instagram.com/venvsdad/"
     },
     {
         
         id: 2,
-        interprete: "Eurowitch",
+        interprete: "EUROWITCH",
         albumName: "",
         profile_image: "eurowitch",
         description: ``,
+        url:"https://www.instagram.com/eurowitch"
     },
 
     {
@@ -38,6 +41,7 @@ export const data = [
         albumName: "",
         profile_image: "remiseria_temperley",
         description: ``,
+        url:"https://www.instagram.com/remiseria.temperley"
     },
 
 

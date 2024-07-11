@@ -2,7 +2,7 @@ import  { useContext, useState } from 'react'
 import { MenuContext } from '../../context/MenuContext'
 import emailjs from '@emailjs/browser';
 
-export const Contacto = () => {
+ const Contacto = () => {
   const [isLoading, setisLoading] = useState(false)
   const [msjEnviado, setMsjEnviado] = useState(false)
   const [msjNoEnviado, setMsjNoEnviado] = useState(false)
@@ -139,3 +139,4 @@ export const Contacto = () => {
     </section>
   )
 }
+export default Contacto

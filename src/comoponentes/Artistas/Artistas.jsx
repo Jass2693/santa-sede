@@ -3,18 +3,18 @@ import { data } from './data'
 import {Link} from 'react-router-dom'
 import { MenuContext } from '../../context/MenuContext'
 
-export const Artistas = () => {
+ const Artistas = () => {
     const {activeMenu,setactiveMenu} = useContext(MenuContext)
   return (
   
     <section  className={activeMenu ? "disabledClass" : 'artistas_section'}>
         <div className='artista_h2_container  animate__animated animate__fadeInLeft'><h2>ARTISTAS</h2></div>
     <div className='artistas_container'>
-
+{/* animate__delay-1s animate__slow 2s*/}
         {
             data && data.map(artist => ( 
-                <div key={artist.id} className='artista_item animate__animated animate__fadeIn animate__delay-1s animate__slow 2s'>
-                    <Link to="/artista-info"
+                <div key={artist.id} className='artista_item animate__animated animate__fadeIn animate__delay-1s '>
+                    <a target='_blank' href={artist.url} to="/artista-info"
                            state={{artistData: artist.id}}  
                     >
                         <div className='overlay'></div>
@@ -29,7 +29,7 @@ export const Artistas = () => {
                     </div>
                    
                     
-                    </Link>
+                    </a>
                 </div>
             ))
         }
@@ -39,3 +39,4 @@ export const Artistas = () => {
 
   )
 }
+export default Artistas

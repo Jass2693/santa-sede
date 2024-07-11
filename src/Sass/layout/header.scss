@@ -35,8 +35,8 @@ header {
    
     // z-index: 1;
     width: 100%;
-    animation: fadeDown 900ms  ease-in;
-//    animation-delay: 2s;
+    animation: fadeDown 1s  ease-in;
+
     @media(max-width: vars.$breakpoint-medium){
 
         display: none;

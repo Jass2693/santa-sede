@@ -1,4 +1,8 @@
 @use "../../varialbles" as vars;
+@font-face {
+  font-family: 'Morris Roman';
+  src:url('../../../public/assets/fonts/MorrisRomanBlack.otf') format('otf'),
+}
 
 .catalogo_container {
   display: flex;
@@ -195,6 +199,7 @@
 }
 
 .catalogo_text_container {
+
   z-index: 1500;
   width: fit-content;
   width: 200px;
@@ -204,12 +209,15 @@
   margin: auto;
   padding: 5px;
   opacity: 0;
+
   flex-direction: column;
   justify-content: center;
   position: absolute;
-  height: 200px;
-  transition: all 0.5s ease;
+  // height: 200px;
+  transition: all 0.3s ease;
   color: #fff;
+
+  
   @media (min-width: vars.$breakpoint-extra-small) {
     position: absolute;
     top: 60%;
@@ -219,14 +227,22 @@
     text-align: center;
     opacity: 1;
     width: 150px;
-    height: 100px;
+    right: 6%;
+   // height: 100px;
   }
+
+  // ARREGLAR bIEN LO RESPONSIVE
   @media (min-width: vars.$breakpoint-small) {
-    top: 13%;
+    top: -5%;
     font-size: 14px;
     opacity: 0;
-    width: 190px;
-    height: auto;
+    width: 200px;
+    height: 120px;
+    right: 0;
+ 
+  
+
+
 
    
 
@@ -239,16 +255,32 @@
   } 
   @media (min-width: vars.$breakpoint-large) { 
    // left: 0;
-    
- //   top: 10%;
+ 
+    width: 210px;
+    top: -8%;
   } 
-  @media (min-width: vars.$breakpoint-xxx-large) { 
+  @media (min-width: vars.$breakpoint-extra-large) {
+    // background-color: red;
+    // opacity: 1;
+    height: 160px;
+   }
+  @media (min-width: vars.$breakpoint-xx-large) { 
     // width: 112%;
-    // height: 130px;
+   height: 160px;
+ 
+   padding-top: 0px;
   }
+  @media (min-width: vars.$breakpoint-xxx-large) {
+    width: 220px;
+    height: 200px;
+    top: 10%;
+    //aca
+    
+   }
   h2 {
     margin-block-end: 1px;
     font-weight: 800;
+   
     @media (min-width: vars.$breakpoint-extra-small) {
       font-size: 14px;
     }
@@ -259,6 +291,7 @@
   span {
     @media (min-width: vars.$breakpoint-small) {
       font-size: 18px;
+    
     }
   }
   .link_catalogo_container {
@@ -307,3 +340,6 @@
 //   background-size: cover;
 //   back
 // }
+.bold_name {
+  font-weight: bold;
+}

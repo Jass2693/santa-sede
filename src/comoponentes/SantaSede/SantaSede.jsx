@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { MenuContext } from '../../context/MenuContext'
 
-export const SantaSede = () => {
+ const SantaSede = () => {
   const { activeMenu, setactiveMenu } = useContext(MenuContext)
   return (
     <section className={activeMenu ? "disabledClass" : "santa_sede_container"}>
@@ -10,10 +10,10 @@ export const SantaSede = () => {
           </div>
       <div className='santa_sede_imageMovile_container'>
 
-        <img src="/assets/sections/santa-sede-movile.png" alt="" />
+        {/* <img src="/assets/sections/santa-sede-movile.png" alt="" /> */}
       </div>
       
-      <div className='santa_sede_textContainer animate__animated animate__fadeIn animate__delay-1s  animate__slow 2s'>
+      <div className='santa_sede_textContainer animate__animated animate__fadeIn   animate__slow 2s'>
       <div>
 
         <p>
@@ -59,3 +59,4 @@ export const SantaSede = () => {
     </section>
   )
 }
+export default SantaSede

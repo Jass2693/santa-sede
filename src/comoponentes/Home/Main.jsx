@@ -3,7 +3,7 @@ import { HomeCards } from './HomeCards'
 import { MenuContext } from '../../context/MenuContext'
 
 
-export const Main = () => {
+ const Main = () => {
   const {activeMenu,setactiveMenu} = useContext(MenuContext)
   
 
@@ -18,3 +18,4 @@ export const Main = () => {
     </main>
   )
 }
+export default Main

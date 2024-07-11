@@ -1,28 +1,34 @@
-import React from 'react'
+import React, { Suspense, lazy } from 'react'
 import { Route, Routes } from 'react-router-dom'
-import { Main } from '../comoponentes/Home/Main'
-import { SantaSede } from '../comoponentes/SantaSede/SantaSede'
-import { Catalogo } from '../comoponentes/Catalogo/Catalogo'
-import { Contacto } from '../comoponentes/Contacto/Contacto'
-import { Artistas } from '../comoponentes/Artistas/Artistas'
-import { Artista_layout } from '../comoponentes/Artistas/Artista_layout'
-import { Extras } from '../comoponentes/Extras/Extras'
-import { Editorial } from '../comoponentes/Editorial/Editorial'
-import { Menu } from '../comoponentes/Home/Menu'
+
+//import { Artista_layout } from '../comoponentes/Artistas/Artista_layout'
+
+// import { Menu } from '../comoponentes/Home/Menu'
 // import { Release } from '../comoponentes/Catalogo/Release'
+const LazyMain = lazy(()=> import('../comoponentes/Home/Main.jsx'));
+const LazySede = lazy(()=> import('../comoponentes/SantaSede/SantaSede'));
+const LazyCatalogo = lazy(()=> import('../comoponentes/Catalogo/Catalogo'));
+const LazyContacto = lazy(()=> import('../comoponentes/Contacto/Contacto'));
+const LazyArtistas = lazy(()=> import('../comoponentes/Artistas/Artistas'));
+const LazyExtras = lazy(()=> import('../comoponentes/Extras/Extras'));
 
 
-export const RouterApp = () => {
+export  const RouterApp = () => {
   return (
     
+    <Suspense fallback={<div style={{height: "500px"}}>..</div>}>
+
+ 
     <Routes>
-    <Route path='/' element={<Main/>}/>
-    <Route path='/santa-sede' element={<SantaSede />}/>
-    <Route path='/catalogo' element={<Catalogo/>}/>
-    <Route path='/contacto' element={<Contacto/>}/>
-    <Route path='/artistas' element={<Artistas/>}/>
-    <Route path='/artista-info' element={<Artista_layout/>}/>
-    <Route path='/extras' element={<Extras/>}/>
+      <Route  path='/' element={<LazyMain/>}/>
+    <Route path='/santa-sede'  element={<LazySede/>}/>
+    <Route path='/catalogo' element={<LazyCatalogo/>}/>
+    <Route path='/contacto' element={<LazyContacto/>} />
+    <Route path='/artistas' element={<LazyArtistas/>}/>
+    <Route path='/extras' element={<LazyExtras/>}/>
+    
+    
+    {/* <Route path='/artista-info' element={<Artista_layout/>}/> */}
     {/* <Route path='/editorial' element={<Editorial/>}/> */}
     {/* <Route path='/release' element={<Release/>}/> */}
     {/* <Route path='/menu' element={<Menu/>}/>
@@ -30,5 +36,6 @@ export const RouterApp = () => {
    
 
 </Routes>
+</Suspense>
   )
 }

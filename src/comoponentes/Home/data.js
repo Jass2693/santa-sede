@@ -4,18 +4,18 @@ export const data = [
  
  
    
-    {
-        id: 0,
-        src: "home_5",
-        interprete: "[PREMIERE] EXTRaBLOOD",
-        title: "Riesgo",
-    },
-    {
-        id: 1,
-        src: "home_4",
-        interprete: "[PREMIERE] BRENDA - BRND",
-        title: "Alma Rota",
-    },
+    // {
+    //     id: 0,
+    //     src: "home_5",
+    //     interprete: "[PREMIERE] EXTRaBLOOD",
+    //     title: "Riesgo",
+    // },
+    // {
+    //     id: 1,
+    //     src: "home_4",
+    //     interprete: "[PREMIERE] BRENDA - BRND",
+    //     title: "Alma Rota",
+    // },
     {
         id:2,
         src: "home_3",
@@ -76,7 +76,7 @@ export const data = [
         id: 10,
         src: "home_7",
         interprete: "LANZAMIENTO:",
-        title: 'Caral - Lo oscuro (SSD-019)',
+        title: 'Caral - Lo Oscuro (SSD-019)',
 
     },
 ]

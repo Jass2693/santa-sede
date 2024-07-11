@@ -31,6 +31,7 @@ main {
     background-color: black;
     position: relative;
     transition: all 100ms ease;
+  
    
     &:hover {
         .item_text_container {
@@ -76,7 +77,8 @@ main {
        
         margin-bottom: 10px;
         height: 420px;
-        width: 28%;
+        width: 320px;
+      
 
         
 
@@ -97,8 +99,7 @@ main {
     animation: fadeEntrance forwards;
     animation-duration: 2s;
     animation-delay: 1100ms;
-  
-
+   
   
     @media(min-width: vars.$breakpoint-small) {
          width: 280px;
@@ -125,6 +126,7 @@ main {
     @media(min-width: vars.$breakpoint-extra-large) {
         // antes estaba en 300px por las dudas
         width: 308px;
+
       
        
        
@@ -153,7 +155,7 @@ main {
     font-weight: 400;
     background-color: black;
     color: white;
- 
+
     padding-left: 5px;
     transition: all 2000ms ease;
     @media(min-width: vars.$breakpoint-extra-small) {
@@ -164,36 +166,40 @@ main {
       
     } 
     @media(min-width: vars.$breakpoint-small) {
-        width: 980%;
+        width: 98%;
         height: 80px;
         font-size: 12px;
 
      }
     @media(min-width: vars.$breakpoint-medium) { 
-        width: 75%;
+        width: 77%;
         height: 88px;
         font-size: 12px;
         opacity: 0;
+      
 
     }
     @media(min-width: vars.$breakpoint-large) { 
         // opacity: .5;
         font-size: 12px;
         width: 73%;
-        height: 93px;
+        height: 90px;
+       
     }
     @media(min-width: vars.$breakpoint-extra-large) {
         font-size: 15px;
-        width: 78%;
-        height: 105px;
-       
-        // opacity: 1;
+        width: 81%;
+        height: 102px;
+
+    
         // display: flex;
         // flex-direction: column;
         // justify-content: center; 
     }
     @media(min-width: vars.$breakpoint-xxx-large) {
         font-size: 16px;
+        height: 100px;
+        
      }
     p {
         margin-block-start: 0px;
@@ -214,7 +220,7 @@ main {
 .rectangle {
     background-color: whitesmoke;
     position: absolute;
-    transition: all 2000ms ease;
+    transition: all 800ms ease;
     @media(min-width: vars.$breakpoint-extra-small) {
         height: 75%;
         width: 20%;

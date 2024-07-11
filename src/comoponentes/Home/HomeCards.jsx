@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 import { data } from './data'
 import { MenuContext } from '../../context/MenuContext'
 
-export const HomeCards = () => {
+ export const HomeCards = () => {
   const {activeMenu,setactiveMenu} = useContext(MenuContext)
   const reverseData = data.toReversed() 
 
@@ -13,13 +13,13 @@ export const HomeCards = () => {
       
       {
        reverseData && reverseData.map(card => (
-            <div key={card.id} className='home_item animate__animated animate__fadeIn animate__delay-1s	 animate__slow 1s'>
+            <div key={card.id} className='home_item animate__animated animate__fadeIn animate__delay-1s	 animate__slow '>
               
               <div className='rectangle'></div>
               
               {/* <div className='home_image_container'> */}
 
-                <img src={`/assets/home/${card.src}.png`} alt={card.catalogo} 
+                <img src={`/assets/home/${card.src}.png`} loading='lazy' alt={card.catalogo} 
                 className='home_cards_image'
                 />
               {/* </div> */}

@@ -2,7 +2,7 @@ export const data = [
     {
         
         id: 0,
-        interprete: "SSDMix 001 Eròtica Castro",
+        interprete: "SSDMix 001 Erótica Castro",
         albumName: "Underground Mix",
         extras_image: "media_8",
         url: "https://soundcloud.com/santasedelabel/ssdmix-001-erotica-castro-underground-mix"
@@ -89,8 +89,15 @@ export const data = [
     {
         id: 10,
         interprete: "DJ Daddy Yonqui",
-        albumName: "HACE RATO QUE NO SE NADA DE TI",
+        albumName: "HACERATOQUE NOSENADADETI",
         extras_image: "media_10",
         url: "https://soundcloud.com/santasedelabel/dj-daddy-yonqui-haceratoquenosenadeti"
+    },
+    {
+        id: 11,
+        interprete: "Escobutt",
+        albumName: "BABAJUANA",
+        extras_image: "media_11",
+        url: "https://soundcloud.com/santasedelabel/escobutt-babajuana"
     },
 ]

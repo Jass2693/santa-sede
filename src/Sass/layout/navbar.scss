@@ -1,4 +1,8 @@
 @use '../varialbles' as vars;
+@font-face {
+    font-family: 'Morris Roman';
+    src:url("/public/assets/fonts/MorrisRomanBlack.otf" ) format('woff2'),
+}
 
 
 nav {
@@ -45,13 +49,15 @@ nav {
         align-items: center;
         padding-right: 10px;
         position: relative;
-   
+        margin: auto;
+        margin-top: 15px;
        
       
         
         
         @media(min-width: vars.$breakpoint-large){
-            width: 100%;
+            width: 90%;
+           
            
            
         
@@ -67,23 +73,25 @@ nav {
         
     }
     li {
-        &:hover {
-           text-decoration: underline; 
+        display: flex;
+      
+        // &:hover {
+        //    text-decoration: underline; 
 
-        }
+        // }
         
-        img {
-            width: 120px;
-            @media(min-width: vars.$breakpoint-medium){
-                width: 80px;
-            }
-            @media(min-width: vars.$breakpoint-large){
-               width: 90px;
-            }
-            // @media(max-width: vars.$breakpoint-medium){
+        // img {
+        //     width: 120px;
+        //     @media(min-width: vars.$breakpoint-medium){
+        //         width: 80px;
+        //     }
+        //     @media(min-width: vars.$breakpoint-large){
+        //        width: 90px;
+        //     }
+        //     // @media(max-width: vars.$breakpoint-medium){
                
-            // }
-        }
+        //     // }
+        // }
     }
     
 }
@@ -96,28 +104,29 @@ nav {
 
 }
 
-// .list_navbar {
-//     &:hover {
-//         border-bottom: 2px solid;
-//     }
+.list_navbar {
+    
+          //  border-bottom: 2px solid;
+    
   
-//}
+}
 .disabled_btn {
  display: none;   
 }
-.active_border {
-    @media(max-width: 1919px){  
-        border-bottom: 2px solid;
+// .active_border {
+//     @media(max-width: 1919px){ 
+         
+//         border-bottom: 2px solid;
 
-    }
-    @media(min-width: 1925px){  
-        border-bottom: 2px solid;
+//     }
+//     @media(min-width: 1925px){  
+//         border-bottom: 2px solid;
 
-    }
-    //position: relative;
+//     }
+//     //position: relative;
    
     
-}
+// }
 .underline {
     @media(max-width: 1915px){ 
         display: none;
@@ -130,7 +139,7 @@ nav {
         
         width: 110px;
         border: 1px solid white;
-        bottom: 32px;
+        bottom: 33px;
         transition: all 1200ms ease-in-out;
         
     }
@@ -156,3 +165,43 @@ nav {
 .none_underline {
     display: none;
 }
+
+.navbar_text {
+    color:#e1e0c7;
+    font-size: 25px;
+    font-family: 'Morris Roman';
+    text-underline-offset: 5px;
+  
+    position: relative;
+    text-decoration: underline 2px solid;
+   @media(min-width: 1919px){ 
+    text-decoration: none;
+}
+@media(min-width: 1925px){ 
+    text-decoration: underline 2px solid;
+}
+}
+
+
+.navbar_disabled {
+    color: #e1e0c7;
+    font-size: 25px;
+    font-family: 'Morris Roman';
+}
+// .navbar_text:hover {
+   
+
+// }
+
+a:hover   {
+    text-decoration: none !important;
+}
+.logo_nav {
+
+    width: 90px;
+
+}
+
+
+  
+  

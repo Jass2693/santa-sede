@@ -1,20 +1,5 @@
- export const catalogo = [
-
-
-
-
-
-
- 
-
+ export const catalogo = [ 
   
-   
-  
-  
-  
-  
- 
- 
     {
         id: 0,
         interprete: "Felipe Valdemoros",
@@ -111,7 +96,7 @@
         albumName: "Gato",
         image: "media_6",
         imageArr: ["media_6"],
-        ssd: "(SSD_010)",
+        ssd: "(SSD-010)",
         url: "https://santasedelabel.bandcamp.com/track/gato-ssd-010"
     },
     {
@@ -182,11 +167,11 @@
     },
     {
         id: 18,
-        interprete: "ANARKXBELLAKK ",
+        interprete: "ANARKXBELLAKX ",
         albumName: "Vol.2",
         image: "media_18",
         imageArr: [ "media_17", "media_17_a",  "media_17_b",],
-        ssd: "(SSD-018)",
+        ssd: "",
         url: "https://santasedelabel.bandcamp.com/album/anarkxbellakx-vol-2-ssd-018"
     },
     {
@@ -197,6 +182,15 @@
         imageArr: [ "media_17", "media_17_a",  "media_17_b",],
         ssd: "(SSD-019)",
         url: "https://santasedelabel.bandcamp.com/album/lo-oscuro-ssd-019"
+    },
+    {
+        id: 20,
+        interprete: "Eddie Ferza x Young Diablo Beat",
+        albumName: "El Bate",
+        image: "media_20",
+        imageArr: [ ],
+        ssd: "(SSD-020)",
+        url: "https://santasedelabel.bandcamp.com/album/el-bate-ssd-020"
     },
    
    
