@@ -14,6 +14,8 @@ import { MenuContext } from '../../context/MenuContext'
       {
        reverseData && reverseData.map(card => (
             <div key={card.id} className='home_item animate__animated animate__fadeIn animate__delay-1s	 animate__slow '>
+              <a href={card.link} target='_blank'>
+
               
               <div className='rectangle'></div>
               
@@ -28,7 +30,7 @@ import { MenuContext } from '../../context/MenuContext'
               <p>{card.title}</p>
               </div>
                
-               
+              </a>
             </div>
         ))}
       </div>

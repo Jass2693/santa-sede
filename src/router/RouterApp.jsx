@@ -16,7 +16,7 @@ const LazyExtras = lazy(()=> import('../comoponentes/Extras/Extras'));
 export  const RouterApp = () => {
   return (
     
-    <Suspense fallback={<div style={{height: "500px"}}>..</div>}>
+    <Suspense fallback={<div style={{height: "500px"}}></div>}>
 
  
     <Routes>

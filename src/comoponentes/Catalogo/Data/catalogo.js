@@ -43,7 +43,7 @@
         image: "media_12",
         imageArr: ["media_12"],
         ssd: "(SSD-005)",
-        url: "https://santasedelabel.bandcamp.com/track/los-reyes-de-la-nueva-era"
+        url: "https://santasedelabel.bandcamp.com/album/los-reyes-de-la-nueva-era-ssd-005"
     },
     {
         id: 5,
@@ -125,7 +125,7 @@
         image: "media_3",
         imageArr: ["media_3"],
         ssd: "(SSD-013)",
-        url: "https://santasedelabel.bandcamp.com/track/dulcederiva-detuslabios"
+        url: "https://santasedelabel.bandcamp.com/album/dulcederiva-detuslabios-ssd-013"
     },
     {
         id: 14,
